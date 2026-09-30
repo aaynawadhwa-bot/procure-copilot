@@ -1,0 +1,888 @@
+{
+ "vendor_name_as_written": "Pacific Fibreboard Solutions Pte. Ltd.",
+ "response_date": "2026-09-22",
+ "commercial": {
+  "currency": "USD",
+  "price_basis": "ex_works",
+  "freight": {
+   "type": "extra_amount_given",
+   "amount_inr": 14500,
+   "per": "truck",
+   "truck_payload_kg": 7000,
+   "conditions_text": "Freight to Bhiwandi, if arranged by us: INR 14,500 per 32 ft MXL truck (payload 7 MT), billed at actuals. Prices are EXW Chakan, Pune, excluding freight.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "** Freight to Bhiwandi, if arranged by us: INR 14,500 per 32 ft MXL truck (payload 7 MT), billed at actuals."
+   }
+  },
+  "gst_text": "Prices are EXW Chakan, Pune, excluding GST and excluding freight.",
+  "payment_days": 45,
+  "payment_text": "Payment: 45 days from invoice. (Q09: Yes, 45 days accepted) - NOTE: RFx asked 45 days from receipt of material AND invoice; vendor states 45 days from invoice.",
+  "validity_days": 90,
+  "validity_text": "Validity: 90 days from the date of this offer. (Q10: 90 days) - deviation vs 180 days required.",
+  "price_variation_clause": "Quarterly adjustment linked to published kraft paper index (Mumbai, 18 BF) beyond +/- 4%.",
+  "delivery_lead_time_text": "10 days from PO (Q04)",
+  "discounts": [
+   {
+    "description": "Volume rebate of 3.5% on total invoiced value, credited annually if cumulative off-take in the contract year exceeds USD 350,000. Not reflected in unit prices.",
+    "pct": 3.5,
+    "conditional": true,
+    "condition": "Cumulative off-take in contract year > USD 350,000; credited annually",
+    "source": {
+     "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+     "location": "page 1",
+     "snippet": "*** A volume rebate of 3.5% on total invoiced value will be credited annually if cumulative off-take in the contract year exceeds USD 350,000. Rebate is not reflected in unit prices above."
+    }
+   }
+  ],
+  "other_charges": [
+   {
+    "description": "Tooling: printing plates and cutting dies charged at cost, amortised over first 3 months' supplies",
+    "amount_inr": null,
+    "basis": "at cost, amortised over first 3 months' supplies",
+    "source": {
+     "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+     "location": "page 2",
+     "snippet": "Tooling: printing plates and cutting dies charged at cost, amortised over first 3 months' supplies."
+    }
+   },
+   {
+    "description": "Minimum order quantity 2 MT per release",
+    "amount_inr": null,
+    "basis": "MOQ",
+    "source": {
+     "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+     "location": "page 2",
+     "snippet": "Minimum order: 2 MT per release."
+    }
+   }
+  ],
+  "other_deviations": [
+   "Prices quoted in USD, not INR as requested; invoicing in India in INR at RBI reference rate on invoice date - FX risk on buyer.",
+   "Price basis EXW Chakan, Pune - not DELIVERED Bhiwandi as requested; freight extra at INR 14,500 per 32ft truck (7 MT payload) at actuals.",
+   "Validity 90 days vs 180 days required.",
+   "Price variation clause: quarterly kraft paper index adjustment beyond +/-4% - RFx sought firm annual rate contract.",
+   "Liquidated damages accepted only with cap of 3% vs 5% required.",
+   "Payment 45 days from invoice (vs 45 days from receipt of material and invoice).",
+   "L21/L22 rolls quoted per running metre while RFx UoM is per roll (50 m roll).",
+   "ISO 9001:2015 certificate attached expired 31 March 2026 - not valid on bid due date 2026-09-23.",
+   "MOQ 2 MT per release.",
+   "Tooling (plates/dies) charged extra at cost."
+  ]
+ },
+ "line_quotes": [
+  {
+   "rfx_line_id": "L01",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0387,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 200x150x100",
+   "vendor_size_text": "200x150x100",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Vendor used RFx line numbering L01 and dimensions/ply match exactly.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L01 3P RSC 200x150x100 pc 0.0387"
+   }
+  },
+  {
+   "rfx_line_id": "L02",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0649,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 250x200x150",
+   "vendor_size_text": "250x200x150",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L02 and dimensions match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L02 3P RSC 250x200x150 pc 0.0649"
+   }
+  },
+  {
+   "rfx_line_id": "L03",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0928,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 300x200x150, 1-colour",
+   "vendor_size_text": "300x200x150",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L03, dimensions and 1-colour print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L03 3P RSC 300x200x150, 1-colour pc 0.0928"
+   }
+  },
+  {
+   "rfx_line_id": "L04",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1344,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 350x250x200, 1-colour",
+   "vendor_size_text": "350x250x200",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L04, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L04 3P RSC 350x250x200, 1-colour pc 0.1344"
+   }
+  },
+  {
+   "rfx_line_id": "L05",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1771,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 400x300x200, 1-colour",
+   "vendor_size_text": "400x300x200",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L05, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L05 3P RSC 400x300x200, 1-colour pc 0.1771"
+   }
+  },
+  {
+   "rfx_line_id": "L06",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.3647,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 400x300x300, 2-colour",
+   "vendor_size_text": "400x300x300",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L06, dimensions, 5-ply and 2-colour match.",
+   "notes": "Vendor remark recommends a BF 20 alternative (RFx spec is BF 22) with price on request - no price given for the alternative.",
+   "alternate_offers": [
+    {
+     "description": "BF 20 alternative construction recommended by vendor in place of RFx BF 22",
+     "price": null,
+     "price_unit": "per_piece",
+     "deviation": "BF 20 instead of BF 22; price not quoted ('price on request')",
+     "source": {
+      "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+      "location": "page 1",
+      "snippet": "Recommend BF 20 alternative; price on request"
+     }
+    }
+   ],
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L06 5P RSC 400x300x300, 2-colour pc 0.3647"
+   }
+  },
+  {
+   "rfx_line_id": "L07",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.4326,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 450x350x300, 2-colour",
+   "vendor_size_text": "450x350x300",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L07, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L07 5P RSC 450x350x300, 2-colour pc 0.4326"
+   }
+  },
+  {
+   "rfx_line_id": "L08",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.6888,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 500x400x350, 2-colour",
+   "vendor_size_text": "500x400x350",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L08, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L08 5P RSC 500x400x350, 2-colour pc 0.6888"
+   }
+  },
+  {
+   "rfx_line_id": "L09",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.811,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 600x400x400",
+   "vendor_size_text": "600x400x400",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L09, dimensions and 5-ply plain match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L09 5P RSC 600x400x400 pc 0.8110"
+   }
+  },
+  {
+   "rfx_line_id": "L10",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.3076,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 300x300x300",
+   "vendor_size_text": "300x300x300",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L10, dimensions match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L10 5P RSC 300x300x300 pc 0.3076"
+   }
+  },
+  {
+   "rfx_line_id": "L11",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 1.7805,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "7P RSC 600x500x500",
+   "vendor_size_text": "600x500x500",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L11, 7-ply and dimensions match.",
+   "notes": "Remark: Supplied from Chakan 7-ply line",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L11 7P RSC 600x500x500 pc 1.7805 Supplied from Chakan 7-ply line"
+   }
+  },
+  {
+   "rfx_line_id": "L12",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.6256,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "7P RSC 800x600x500",
+   "vendor_size_text": "800x600x500",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L12, 7-ply and dimensions match.",
+   "notes": "Remark: Supplied from Chakan 7-ply line",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L12 7P RSC 800x600x500 pc 2.6256 Supplied from Chakan 7-ply line"
+   }
+  },
+  {
+   "rfx_line_id": "L13",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1004,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P MAILER 250x180x60, 4-colour",
+   "vendor_size_text": "250x180x60",
+   "match_confidence": 0.97,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L13, mailer dimensions and 4-colour match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L13 3P MAILER 250x180x60, 4-colour pc 0.1004"
+   }
+  },
+  {
+   "rfx_line_id": "L14",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.145,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P MAILER 300x220x80, 4-colour",
+   "vendor_size_text": "300x220x80",
+   "match_confidence": 0.97,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L14, mailer dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L14 3P MAILER 300x220x80, 4-colour pc 0.1450"
+   }
+  },
+  {
+   "rfx_line_id": "L15",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1902,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P MAILER 350x250x100, 4-colour",
+   "vendor_size_text": "350x250x100",
+   "match_confidence": 0.97,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L15, new-item mailer dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L15 3P MAILER 350x250x100, 4-colour pc 0.1902"
+   }
+  },
+  {
+   "rfx_line_id": "L16",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1478,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P TRAY 400x300x100, 2-colour",
+   "vendor_size_text": "400x300x100",
+   "match_confidence": 0.96,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L16, 5-ply tray dimensions and 2-colour match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L16 5P TRAY 400x300x100, 2-colour pc 0.1478"
+   }
+  },
+  {
+   "rfx_line_id": "L17",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1076,
+   "currency": "USD",
+   "price_unit": "per_set",
+   "price_unit_text": "set",
+   "vendor_item_text": "3P PARTITION 400x300x290",
+   "vendor_size_text": "400x300x290",
+   "match_confidence": 0.96,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L17; partition fits 400x300 mm, height 290 mm; UoM set matches.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L17 3P PARTITION 400x300x290 set 0.1076"
+   }
+  },
+  {
+   "rfx_line_id": "L18",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0289,
+   "currency": "USD",
+   "price_unit": "per_set",
+   "price_unit_text": "set",
+   "vendor_item_text": "3P PARTITION 300x200x140",
+   "vendor_size_text": "300x200x140",
+   "match_confidence": 0.96,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L18; 6-cell partition fits 300x200 mm, height 140 mm; UoM set matches.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L18 3P PARTITION 300x200x140 set 0.0289"
+   }
+  },
+  {
+   "rfx_line_id": "L19",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.026,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P PAD 390x290",
+   "vendor_size_text": "390x290",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L19, layer pad size matches.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L19 3P PAD 390x290 pc 0.0260"
+   }
+  },
+  {
+   "rfx_line_id": "L20",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.4714,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P PAD 1200x1000",
+   "vendor_size_text": "1200x1000",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L20, 5-ply pallet pad size matches.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L20 5P PAD 1200x1000 pc 0.4714"
+   }
+  },
+  {
+   "rfx_line_id": "L21",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1114,
+   "currency": "USD",
+   "price_unit": "per_running_metre",
+   "price_unit_text": "running metre (roll length 50 m)",
+   "vendor_item_text": "2P ROLL 1000x50000",
+   "vendor_size_text": "1000 mm wide x 50000 mm (50 m)",
+   "match_confidence": 0.95,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L21, 2-ply roll 1000 mm x 50 m matches.",
+   "notes": "Priced per running metre, not per roll as RFx UoM; vendor notes roll length 50 m (i.e. 50 running metres per roll). No conversion applied.",
+   "spec_deviation": "UoM deviation: quoted per running metre vs RFx per roll",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L21 2P ROLL 1000x50000 running metre 0.1114 Roll length 50 m"
+   }
+  },
+  {
+   "rfx_line_id": "L22",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.1312,
+   "currency": "USD",
+   "price_unit": "per_running_metre",
+   "price_unit_text": "running metre (roll length 50 m)",
+   "vendor_item_text": "2P ROLL 1200x50000",
+   "vendor_size_text": "1200 mm wide x 50000 mm (50 m)",
+   "match_confidence": 0.95,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L22, 2-ply roll 1200 mm x 50 m matches.",
+   "notes": "Priced per running metre, not per roll as RFx UoM; vendor notes roll length 50 m. No conversion applied.",
+   "spec_deviation": "UoM deviation: quoted per running metre vs RFx per roll",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L22 2P ROLL 1200x50000 running metre 0.1312 Roll length 50 m"
+   }
+  },
+  {
+   "rfx_line_id": "L23",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.2881,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 500x350x300",
+   "vendor_size_text": "500x350x300",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L23, dimensions match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L23 3P RSC 500x350x300 pc 0.2881"
+   }
+  },
+  {
+   "rfx_line_id": "L24",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.4224,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 350x350x350, 1-colour",
+   "vendor_size_text": "350x350x350",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L24, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L24 5P RSC 350x350x350, 1-colour pc 0.4224"
+   }
+  },
+  {
+   "rfx_line_id": "L25",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0966,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 220x220x220, 1-colour",
+   "vendor_size_text": "220x220x220",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L25, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L25 3P RSC 220x220x220, 1-colour pc 0.0966"
+   }
+  },
+  {
+   "rfx_line_id": "L26",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.3481,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P RSC 450x300x250, 1-colour",
+   "vendor_size_text": "450x300x250",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L26, dimensions and print match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L26 5P RSC 450x300x250, 1-colour pc 0.3481"
+   }
+  },
+  {
+   "rfx_line_id": "L27",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0283,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P RSC 180x120x80",
+   "vendor_size_text": "180x120x80",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L27, dimensions match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L27 3P RSC 180x120x80 pc 0.0283"
+   }
+  },
+  {
+   "rfx_line_id": "L28",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.3738,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "5P HSC 500x400x300",
+   "vendor_size_text": "500x400x300",
+   "match_confidence": 0.98,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L28, HSC type and dimensions match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L28 5P HSC 500x400x300 pc 0.3738"
+   }
+  },
+  {
+   "rfx_line_id": "L29",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 0.0229,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "3P INSERT 250x200x150",
+   "vendor_size_text": "250x200x150",
+   "match_confidence": 0.97,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L29, die-cut insert dimensions match.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L29 3P INSERT 250x200x150 pc 0.0229"
+   }
+  },
+  {
+   "rfx_line_id": "L30",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 6.3954,
+   "currency": "USD",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "7P BIN 1000x800x800",
+   "vendor_size_text": "1000x800x800",
+   "match_confidence": 0.97,
+   "extraction_confidence": 0.99,
+   "legibility": "clear",
+   "match_reason": "Line ref L30, 7-ply bulk bin dimensions match.",
+   "notes": "Remark: Supplied from Chakan 7-ply line. Offer does not explicitly confirm the separate lid is included in the price.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "L30 7P BIN 1000x800x800 pc 6.3954 Supplied from Chakan 7-ply line"
+   }
+  }
+ ],
+ "questionnaire": [
+  {
+   "q_id": "Q01",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "Yes. ISO 9001:2015 certified - certificate enclosed.",
+   "evidence_claimed": "Certificate enclosed (PFS_ISO9001_Certificate.pdf) - however attached certificate BCI/QMS/IN/18-4471 expired 31 March 2026, i.e. NOT valid on bid due date 23 Sep 2026.",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q01 Do you hold a valid ISO 9001:2015 certificate? Attach copy. Yes. ISO 9001:2015 certified - certificate enclosed."
+   }
+  },
+  {
+   "q_id": "Q02",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "1,200 MT/month (group India capacity; Chakan 850 MT)",
+   "numeric_value": 1200,
+   "numeric_upper_bound": 1200,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q02 Monthly corrugation capacity (MT/month) 1,200 MT/month (group India capacity; Chakan 850 MT)"
+   }
+  },
+  {
+   "q_id": "Q03",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "Yes - full lab incl. BCT, ECT, burst, Cobb, moisture",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q03 In-house testing lab for GSM, BF, BCT, ECT, moisture? Yes - full lab incl. BCT, ECT, burst, Cobb, moisture"
+   }
+  },
+  {
+   "q_id": "Q04",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "10 days from PO",
+   "numeric_value": 10,
+   "numeric_upper_bound": 10,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q04 Standard lead time from PO to delivery at Bhiwandi (days) 10 days from PO"
+   }
+  },
+  {
+   "q_id": "Q05",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "Yes",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q05 Can you supply 7-ply heavy-duty boxes and bulk bins? Yes"
+   }
+  },
+  {
+   "q_id": "Q06",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "8%",
+   "numeric_value": 8,
+   "numeric_upper_bound": 8,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q06 Guaranteed maximum moisture content of boxes at dispatch (%) 8%"
+   }
+  },
+  {
+   "q_id": "Q07",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Up to 80% recycled; FSC Mix available",
+   "numeric_value": 80,
+   "numeric_upper_bound": 80,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q07 Recycled fibre content (%) and FSC availability Up to 80% recycled; FSC Mix available"
+   }
+  },
+  {
+   "q_id": "Q08",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Chakan, Pune - approx. 175 km to Bhiwandi",
+   "numeric_value": 175,
+   "numeric_upper_bound": 175,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q08 Plant location(s) and distance to Bhiwandi (km) Chakan, Pune - approx. 175 km to Bhiwandi"
+   }
+  },
+  {
+   "q_id": "Q09",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "Yes, 45 days accepted (commercial terms state: Payment: 45 days from invoice)",
+   "numeric_value": 45,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q09 Do you accept 45-day payment terms? Yes, 45 days accepted"
+   }
+  },
+  {
+   "q_id": "Q10",
+   "answered": true,
+   "yes_no": "no",
+   "answer_text": "90 days. Quarterly adjustment linked to published kraft paper index (Mumbai, 18 BF) beyond +/- 4%.",
+   "numeric_value": 90,
+   "numeric_upper_bound": 90,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q10 Price validity offered (days) and paper-price variation clause, if any 90 days. Quarterly adjustment linked to published kraft paper index (Mumbai, 18 BF) beyond +/- 4%."
+   }
+  },
+  {
+   "q_id": "Q11",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Two multinational FMCG majors (names under NDA); one top-5 e-commerce marketplace",
+   "evidence_claimed": "No customer names given - withheld under NDA",
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q11 Name 2 FMCG / e-commerce customers supplied in last 12 months Two multinational FMCG majors (names under NDA); one top-5 e-commerce marketplace"
+   }
+  },
+  {
+   "q_id": "Q12",
+   "answered": true,
+   "yes_no": "no",
+   "answer_text": "Accepted with cap of 3%",
+   "numeric_value": 3,
+   "numeric_upper_bound": 3,
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 2",
+    "snippet": "Q12 Do you accept liquidated damages of 1% per week of delay (max 5%)? Accepted with cap of 3%"
+   }
+  }
+ ],
+ "documents": [
+  {
+   "file": "PFS_ISO9001_Certificate.pdf",
+   "doc_type": "iso_certificate",
+   "standard": "ISO 9001:2015",
+   "certificate_no": "BCI/QMS/IN/18-4471",
+   "holder_name": "Pacific Fibreboard Solutions Pte. Ltd. - India Operations, Gat 412, Chakan MIDC Phase II, Pune 410501, India",
+   "issue_date": "2018-04-02",
+   "expiry_date": "2026-03-31",
+   "key_findings": [
+    "Issued by Bureau Certis International Pvt. Ltd.",
+    "Scope: Design and manufacture of corrugated boards, boxes and allied packaging products",
+    "EXPIRED on 31 March 2026 - not valid on bid due date 23 September 2026, contrary to Q01 claim of a valid certificate",
+    "Validity subject to successful annual surveillance audits"
+   ],
+   "source": {
+    "file": "PFS_ISO9001_Certificate.pdf",
+    "location": "page 1",
+    "snippet": "Certificate No. BCI/QMS/IN/18-4471 Original issue date 02 April 2018 Expiry date 31 March 2026"
+   }
+  },
+  {
+   "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+   "doc_type": "quotation",
+   "certificate_no": "PFS/IN/CO/2026/0912",
+   "holder_name": "Pacific Fibreboard Solutions Pte. Ltd.",
+   "issue_date": "2026-09-22",
+   "key_findings": [
+    "Commercial offer covering all 30 RFx lines, priced in USD, EXW Chakan Pune, excluding GST and freight",
+    "Includes questionnaire responses Q01-Q12 and commercial terms (tooling at cost, MOQ 2 MT/release, validity 90 days)"
+   ],
+   "source": {
+    "file": "PFS_Commercial_Offer_NHPC-047.pdf",
+    "location": "page 1",
+    "snippet": "COMMERCIAL OFFER - Ref. PFS/IN/CO/2026/0912 Date: 22 September 2026"
+   }
+  }
+ ],
+ "unmatched_vendor_items": [],
+ "overall_notes": "All 30 RFx lines quoted, vendor used the buyer's own line numbering (L01-L30) and abridged descriptions consistent with RFx specs; matching is therefore high-confidence. KEY COMMERCIAL RISKS: (1) all prices are in USD, not INR - Indian invoicing at RBI reference rate on invoice date, so FX risk sits with the buyer and no conversion has been applied here; (2) prices are EXW Chakan, Pune, not delivered Bhiwandi - freight extra at INR 14,500 per 32 ft MXL truck (7 MT payload) at actuals; (3) validity only 90 days vs 180 required, plus a quarterly kraft-index price-variation clause beyond +/-4%; (4) LD cap 3% vs 5% required; (5) tooling (plates/dies) charged at cost extra, MOQ 2 MT per release; (6) 3.5% annual volume rebate only if off-take exceeds USD 350,000 - conditional and paid in arrears; (7) the attached ISO 9001:2015 certificate expired 31 March 2026 and is therefore NOT valid on the bid due date, despite the Q01 claim - a qualification issue to raise with the vendor; (8) L21/L22 rolls quoted per running metre rather than per roll (vendor states roll length 50 m); (9) L06 remark recommends a BF 20 alternative (RFx spec BF 22) with price on request - no alternative price given; (10) Q02 capacity of 1,200 MT/month is group India figure, Chakan plant alone is 850 MT/month."
+}

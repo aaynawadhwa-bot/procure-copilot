@@ -1,0 +1,798 @@
+{
+ "vendor_name_as_written": "Deccan Corrugated Boxes LLP",
+ "response_date": "2026-09-21",
+ "commercial": {
+  "currency": "INR",
+  "price_basis": "delivered",
+  "freight": {
+   "type": "included",
+   "per": "none",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P14",
+    "snippet": "All the above prices are delivered to your Bhiwandi warehouse and exclusive of GST @ 18%."
+   }
+  },
+  "gst_text": "exclusive of GST @ 18%",
+  "payment_days": 60,
+  "payment_text": "Payment: We are pleased to offer 60 days credit from date of delivery, in place of the 45 days requested.",
+  "validity_days": 180,
+  "validity_text": "Validity: Prices are firm for 180 days. Thereafter we propose adjustment in line with the kraft paper index, only if movement exceeds 6%.",
+  "price_variation_clause": "After 180 days, adjustment in line with the kraft paper index, only if movement exceeds 6%.",
+  "delivery_lead_time_text": "Delivery: 8 to 10 days from receipt of schedule; we can hold 2 weeks of buffer stock of fast-moving SKUs at our cost.",
+  "discounts": [],
+  "other_charges": [
+   {
+    "description": "Printing plates / dies - no separate charge for the first artwork of each item (implies possible charge for subsequent artworks)",
+    "amount_inr": 0,
+    "basis": "per item, first artwork only",
+    "source": {
+     "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+     "location": "P14",
+     "snippet": "There are no separate charges for printing plates or dies for the first artwork of each item."
+    }
+   }
+  ],
+  "other_deviations": [
+   "Payment terms deviation: 60 days credit from date of delivery offered instead of the 45 days requested (P16).",
+   "Price-variation clause proposed after 180 days linked to kraft paper index if movement exceeds 6% (P17).",
+   "Cannot quote 7-ply heavy-duty boxes and bulk bin (items 11, 12, 30); 7-ply line only being commissioned in Q2 FY28 (P11).",
+   "ISO 9001:2015 certificate copy NOT attached - only offered 'can be shared on request' (P21).",
+   "Guaranteed moisture 8.5% max vs RFx requirement <= 9% (compliant) (P22).",
+   "For item 6 an alternate lower-spec BF 20 offer is recommended at a lower price (P10)."
+  ]
+ },
+ "line_quotes": [
+  {
+   "rfx_line_id": "L01",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 3.75,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "For the 3-ply RSC range, i.e. your item nos. 1 through 5, our delivered rates per box are Rs. 3.75, Rs. 6.50, Rs. 8.65, Rs. 12.65 and Rs. 17.65 respectively.",
+   "match_confidence": 0.95,
+   "match_reason": "Vendor lists item nos. 1-5 in order; first value Rs.3.75 maps to RFx L01 (item 1).",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "For the 3-ply RSC range, i.e. your item nos. 1 through 5, our delivered rates per box are Rs. 3.75, Rs. 6.50, Rs. 8.65, Rs. 12.65 and Rs. 17.65 respectively."
+   }
+  },
+  {
+   "rfx_line_id": "L02",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 6.5,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "item nos. 1 through 5 ... Rs. 6.50 (second in sequence)",
+   "match_confidence": 0.95,
+   "match_reason": "Second price in the stated 1-5 sequence corresponds to RFx L02.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "our delivered rates per box are Rs. 3.75, Rs. 6.50, Rs. 8.65, Rs. 12.65 and Rs. 17.65 respectively"
+   }
+  },
+  {
+   "rfx_line_id": "L03",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 8.65,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "item nos. 1 through 5 ... Rs. 8.65 (third in sequence)",
+   "match_confidence": 0.95,
+   "match_reason": "Third price in stated 1-5 sequence corresponds to RFx L03.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "our delivered rates per box are Rs. 3.75, Rs. 6.50, Rs. 8.65, Rs. 12.65 and Rs. 17.65 respectively"
+   }
+  },
+  {
+   "rfx_line_id": "L04",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 12.65,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "item nos. 1 through 5 ... Rs. 12.65 (fourth in sequence)",
+   "match_confidence": 0.95,
+   "match_reason": "Fourth price in stated 1-5 sequence corresponds to RFx L04.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "our delivered rates per box are Rs. 3.75, Rs. 6.50, Rs. 8.65, Rs. 12.65 and Rs. 17.65 respectively"
+   }
+  },
+  {
+   "rfx_line_id": "L05",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 17.65,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "item nos. 1 through 5 ... Rs. 17.65 (fifth in sequence)",
+   "match_confidence": 0.95,
+   "match_reason": "Fifth price in stated 1-5 sequence corresponds to RFx L05.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "our delivered rates per box are Rs. 3.75, Rs. 6.50, Rs. 8.65, Rs. 12.65 and Rs. 17.65 respectively"
+   }
+  },
+  {
+   "rfx_line_id": "L06",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 31.8,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "Item 6 is offered at Rs. 31.80 per box as per your specification (BF 22).",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit reference to item 6 at RFx spec BF 22.",
+   "extraction_confidence": 0.98,
+   "legibility": "clear",
+   "alternate_offers": [
+    {
+     "description": "Alternate offer: BF 20 board instead of BF 22 for item 6, recommended on basis of enclosed BCT test report",
+     "price": 30.35,
+     "price_unit": "per_piece",
+     "deviation": "BF 20 instead of specified BF 22; test report shows bursting strength 16.3 kg/cm2 vs spec >= 17.6, BCT 436 kgf vs >= 420",
+     "source": {
+      "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+      "location": "P10",
+      "snippet": "However, based on our BCT tests (report enclosed) we strongly recommend BF 20 for item 6, which meets your stacking load with margin, at a reduced rate of Rs. 30.35."
+     }
+    }
+   ],
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Item 6 is offered at Rs. 31.80 per box as per your specification (BF 22)."
+   }
+  },
+  {
+   "rfx_line_id": "L07",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 39.55,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "Items 7, 8 and 9 are Rs. 39.55, Rs. 64.60 and Rs. 74.75 respectively.",
+   "match_confidence": 0.95,
+   "match_reason": "Explicit item 7 in stated sequence 7/8/9.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Items 7, 8 and 9 are Rs. 39.55, Rs. 64.60 and Rs. 74.75 respectively."
+   }
+  },
+  {
+   "rfx_line_id": "L08",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 64.6,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "Items 7, 8 and 9 are Rs. 39.55, Rs. 64.60 and Rs. 74.75 respectively.",
+   "match_confidence": 0.95,
+   "match_reason": "Second value in stated 7/8/9 sequence maps to item 8 = L08.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Items 7, 8 and 9 are Rs. 39.55, Rs. 64.60 and Rs. 74.75 respectively."
+   }
+  },
+  {
+   "rfx_line_id": "L09",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 74.75,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "Items 7, 8 and 9 are Rs. 39.55, Rs. 64.60 and Rs. 74.75 respectively.",
+   "match_confidence": 0.95,
+   "match_reason": "Third value in stated 7/8/9 sequence maps to item 9 = L09.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Items 7, 8 and 9 are Rs. 39.55, Rs. 64.60 and Rs. 74.75 respectively."
+   }
+  },
+  {
+   "rfx_line_id": "L10",
+   "status": "quoted",
+   "quote_form": "same_as_other_line",
+   "referenced_line_id": "L06",
+   "price": null,
+   "price_unit": "per_piece",
+   "price_unit_text": "same rate as item 6 (BF 22 version)",
+   "currency": "INR",
+   "vendor_item_text": "Item 10 we will supply at the same rate as item 6 (BF 22 version).",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit cross-reference to item 6; L10 is the 5-ply 300x300x300 plain box.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "notes": "Price to be taken as the item 6 BF 22 rate of Rs. 31.80 per box (not the BF 20 alternate).",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Item 10 we will supply at the same rate as item 6 (BF 22 version)."
+   }
+  },
+  {
+   "rfx_line_id": "L11",
+   "status": "declined",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "vendor_item_text": "We regret that we are unable to quote for items 11, 12 and 30 (7-ply heavy-duty boxes and bulk bin) as these are outside our current machine capability.",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit refusal naming item 11.",
+   "extraction_confidence": 0.98,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P11",
+    "snippet": "We regret that we are unable to quote for items 11, 12 and 30 (7-ply heavy-duty boxes and bulk bin) as these are outside our current machine capability."
+   }
+  },
+  {
+   "rfx_line_id": "L12",
+   "status": "declined",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "vendor_item_text": "unable to quote for items 11, 12 and 30",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit refusal naming item 12.",
+   "extraction_confidence": 0.98,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P11",
+    "snippet": "We regret that we are unable to quote for items 11, 12 and 30 (7-ply heavy-duty boxes and bulk bin) as these are outside our current machine capability."
+   }
+  },
+  {
+   "rfx_line_id": "L13",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 9.9,
+   "price_unit": "per_piece",
+   "price_unit_text": "per piece",
+   "currency": "INR",
+   "vendor_item_text": "For the printed e-commerce mailers, items 13, 14 and 15, our prices are Rs. 9.90, Rs. 14.75 and Rs. 19.35 per piece including 4-colour flexo printing.",
+   "match_confidence": 0.95,
+   "match_reason": "Explicit item 13 in stated 13/14/15 sequence.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "notes": "Price stated to include 4-colour flexo printing.",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P12",
+    "snippet": "For the printed e-commerce mailers, items 13, 14 and 15, our prices are Rs. 9.90, Rs. 14.75 and Rs. 19.35 per piece including 4-colour flexo printing."
+   }
+  },
+  {
+   "rfx_line_id": "L14",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 14.75,
+   "price_unit": "per_piece",
+   "price_unit_text": "per piece",
+   "currency": "INR",
+   "vendor_item_text": "items 13, 14 and 15 ... Rs. 14.75 (second in sequence)",
+   "match_confidence": 0.95,
+   "match_reason": "Second value in stated 13/14/15 sequence maps to L14.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P12",
+    "snippet": "our prices are Rs. 9.90, Rs. 14.75 and Rs. 19.35 per piece including 4-colour flexo printing"
+   }
+  },
+  {
+   "rfx_line_id": "L15",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 19.35,
+   "price_unit": "per_piece",
+   "price_unit_text": "per piece",
+   "currency": "INR",
+   "vendor_item_text": "items 13, 14 and 15 ... Rs. 19.35 (third in sequence)",
+   "match_confidence": 0.95,
+   "match_reason": "Third value in stated 13/14/15 sequence maps to L15 (NEW item mailer 350x250x100).",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P12",
+    "snippet": "our prices are Rs. 9.90, Rs. 14.75 and Rs. 19.35 per piece including 4-colour flexo printing"
+   }
+  },
+  {
+   "rfx_line_id": "L16",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 14.95,
+   "price_unit": "per_piece",
+   "price_unit_text": "per piece",
+   "currency": "INR",
+   "vendor_item_text": "The shelf-ready tray (item 16) is Rs. 14.95",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 16, described as shelf-ready tray matching RFx L16.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P12",
+    "snippet": "The shelf-ready tray (item 16) is Rs. 14.95 and the die-cut fitment (item 29) is Rs. 2.15 per piece."
+   }
+  },
+  {
+   "rfx_line_id": "L17",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 10.35,
+   "price_unit": "per_set",
+   "price_unit_text": "per set",
+   "currency": "INR",
+   "vendor_item_text": "Partition sets: item 17 (12-cell) at Rs. 10.35 per set",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 17, 12-cell partition set.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P13",
+    "snippet": "Partition sets: item 17 (12-cell) at Rs. 10.35 per set and item 18 (6-cell) at Rs. 2.65 per set."
+   }
+  },
+  {
+   "rfx_line_id": "L18",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.65,
+   "price_unit": "per_set",
+   "price_unit_text": "per set",
+   "currency": "INR",
+   "vendor_item_text": "item 18 (6-cell) at Rs. 2.65 per set",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 18, 6-cell partition set.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P13",
+    "snippet": "Partition sets: item 17 (12-cell) at Rs. 10.35 per set and item 18 (6-cell) at Rs. 2.65 per set."
+   }
+  },
+  {
+   "rfx_line_id": "L19",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.55,
+   "price_unit": "per_piece",
+   "price_unit_text": "each",
+   "currency": "INR",
+   "vendor_item_text": "Layer pads: item 19 at Rs. 2.55",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 19, layer pad.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P13",
+    "snippet": "Layer pads: item 19 at Rs. 2.55 and the pallet pad item 20 at Rs. 45.40 each."
+   }
+  },
+  {
+   "rfx_line_id": "L20",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 45.4,
+   "price_unit": "per_piece",
+   "price_unit_text": "each",
+   "currency": "INR",
+   "vendor_item_text": "the pallet pad item 20 at Rs. 45.40 each",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 20, pallet pad 1200x1000 mm.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P13",
+    "snippet": "Layer pads: item 19 at Rs. 2.55 and the pallet pad item 20 at Rs. 45.40 each."
+   }
+  },
+  {
+   "rfx_line_id": "L21",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 525.5,
+   "price_unit": "per_roll",
+   "price_unit_text": "per roll of 50 metres",
+   "currency": "INR",
+   "vendor_item_text": "Corrugated rolls (items 21 and 22) are Rs. 525.50 and Rs. 642.60 per roll of 50 metres.",
+   "match_confidence": 0.95,
+   "match_reason": "First value of stated 21/22 sequence maps to L21 (1000 mm wide roll).",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P13",
+    "snippet": "Corrugated rolls (items 21 and 22) are Rs. 525.50 and Rs. 642.60 per roll of 50 metres."
+   }
+  },
+  {
+   "rfx_line_id": "L22",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 642.6,
+   "price_unit": "per_roll",
+   "price_unit_text": "per roll of 50 metres",
+   "currency": "INR",
+   "vendor_item_text": "Corrugated rolls (items 21 and 22) are Rs. 525.50 and Rs. 642.60 per roll of 50 metres.",
+   "match_confidence": 0.95,
+   "match_reason": "Second value of stated 21/22 sequence maps to L22 (1200 mm wide roll).",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P13",
+    "snippet": "Corrugated rolls (items 21 and 22) are Rs. 525.50 and Rs. 642.60 per roll of 50 metres."
+   }
+  },
+  {
+   "rfx_line_id": "L23",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 27.4,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "item 23 (500 x 350 x 300) ... will be Rs. 27.40",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 23 with dimensions 500x350x300 matching RFx L23.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "The larger 3-ply boxes, item 23 (500 x 350 x 300) and item 25 (220 cube, 1 colour), will be Rs. 27.40 and Rs. 9.15 per box"
+   }
+  },
+  {
+   "rfx_line_id": "L24",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 39.2,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "Items 24 and 26 are Rs. 39.20 and Rs. 30.90",
+   "match_confidence": 0.95,
+   "match_reason": "First value of stated 24/26 pair maps to item 24 = L24.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Items 24 and 26 are Rs. 39.20 and Rs. 30.90, and the HSC item 28 is Rs. 35.60 per piece."
+   }
+  },
+  {
+   "rfx_line_id": "L25",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 9.15,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "item 25 (220 cube, 1 colour) ... Rs. 9.15 per box",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 25 described as 220 cube, 1 colour matching RFx L25 (220x220x220, 1-colour).",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "The larger 3-ply boxes, item 23 (500 x 350 x 300) and item 25 (220 cube, 1 colour), will be Rs. 27.40 and Rs. 9.15 per box"
+   }
+  },
+  {
+   "rfx_line_id": "L26",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 30.9,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "Items 24 and 26 are Rs. 39.20 and Rs. 30.90",
+   "match_confidence": 0.95,
+   "match_reason": "Second value of stated 24/26 pair maps to item 26 = L26.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Items 24 and 26 are Rs. 39.20 and Rs. 30.90, and the HSC item 28 is Rs. 35.60 per piece."
+   }
+  },
+  {
+   "rfx_line_id": "L27",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.7,
+   "price_unit": "per_piece",
+   "price_unit_text": "per box",
+   "currency": "INR",
+   "vendor_item_text": "the small item 27 (180 x 120 x 80) at Rs. 2.70 per box",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 27 with dimensions 180x120x80 matching RFx L27.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P9",
+    "snippet": "and the small item 27 (180 x 120 x 80) at Rs. 2.70 per box."
+   }
+  },
+  {
+   "rfx_line_id": "L28",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 35.6,
+   "price_unit": "per_piece",
+   "price_unit_text": "per piece",
+   "currency": "INR",
+   "vendor_item_text": "the HSC item 28 is Rs. 35.60 per piece",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 28 described as HSC matching RFx L28 half slotted container.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P10",
+    "snippet": "Items 24 and 26 are Rs. 39.20 and Rs. 30.90, and the HSC item 28 is Rs. 35.60 per piece."
+   }
+  },
+  {
+   "rfx_line_id": "L29",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.15,
+   "price_unit": "per_piece",
+   "price_unit_text": "per piece",
+   "currency": "INR",
+   "vendor_item_text": "the die-cut fitment (item 29) is Rs. 2.15 per piece",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit item 29 described as die-cut fitment matching RFx L29.",
+   "extraction_confidence": 0.97,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P12",
+    "snippet": "The shelf-ready tray (item 16) is Rs. 14.95 and the die-cut fitment (item 29) is Rs. 2.15 per piece."
+   }
+  },
+  {
+   "rfx_line_id": "L30",
+   "status": "declined",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "vendor_item_text": "unable to quote for items 11, 12 and 30 (7-ply heavy-duty boxes and bulk bin)",
+   "match_confidence": 0.98,
+   "match_reason": "Explicit refusal naming item 30 (bulk bin).",
+   "extraction_confidence": 0.98,
+   "legibility": "clear",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P11",
+    "snippet": "We regret that we are unable to quote for items 11, 12 and 30 (7-ply heavy-duty boxes and bulk bin) as these are outside our current machine capability."
+   }
+  }
+ ],
+ "questionnaire": [
+  {
+   "q_id": "Q01",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "ISO 9001:2015 certified since 2014, Certificate No. TQC/IN/QMS/14-20931, currently valid until November 2027; copy can be shared on request (NOT attached).",
+   "evidence_claimed": "Certificate No. TQC/IN/QMS/14-20931, validity claimed until November 2027; no copy enclosed",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P21",
+    "snippet": "We are an ISO 9001:2015 certified organisation since 2014 (Certificate No. TQC/IN/QMS/14-20931, currently valid until November 2027); a copy can be shared on request."
+   }
+  },
+  {
+   "q_id": "Q02",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Installed capacity 350 MT per month on a 5-ply fully automatic corrugator with an additional 3-ply line.",
+   "numeric_value": 350,
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P21",
+    "snippet": "Our installed capacity is 350 MT per month on a 5-ply fully automatic corrugator with an additional 3-ply line."
+   }
+  },
+  {
+   "q_id": "Q03",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "Full in-house laboratory testing GSM, BF, BCT, ECT, Cobb and moisture on every batch.",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P21",
+    "snippet": "We have a full in-house laboratory testing GSM, BF, BCT, ECT, Cobb and moisture on every batch."
+   }
+  },
+  {
+   "q_id": "Q04",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Standard lead time is 8-10 days (8 to 10 days from receipt of schedule); 2 weeks buffer stock of fast-moving SKUs held at vendor cost.",
+   "numeric_value": 8,
+   "numeric_upper_bound": 10,
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P21",
+    "snippet": "Standard lead time is 8–10 days."
+   }
+  },
+  {
+   "q_id": "Q05",
+   "answered": true,
+   "yes_no": "no",
+   "answer_text": "Cannot supply 7-ply at this time; unable to quote items 11, 12 and 30. Commissioning a 7-ply line in Q2 FY28.",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P21",
+    "snippet": "As mentioned, we cannot supply 7-ply at this time."
+   }
+  },
+  {
+   "q_id": "Q06",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Guaranteed moisture content of 8.5% maximum at dispatch.",
+   "numeric_value": 8.5,
+   "numeric_upper_bound": 8.5,
+   "evidence_claimed": "Test report DCB/QC/BCT/2609 shows moisture 7.9% (BF 22 sample) and 8.1% (BF 20 sample)",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P22",
+    "snippet": "We guarantee moisture content of 8.5% maximum at dispatch."
+   }
+  },
+  {
+   "q_id": "Q07",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Approximately 70% recycled fibre; FSC-certified paper can be arranged against specific orders.",
+   "numeric_value": 70,
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P22",
+    "snippet": "Our boxes use approximately 70% recycled fibre, and FSC-certified paper can be arranged against specific orders."
+   }
+  },
+  {
+   "q_id": "Q08",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Plant at Sinnar (Plot F-23, STICE, Sinnar MIDC, Nashik 422112), about 165 km from Bhiwandi.",
+   "numeric_value": 165,
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P22",
+    "snippet": "Our plant at Sinnar is about 165 km from Bhiwandi."
+   }
+  },
+  {
+   "q_id": "Q09",
+   "answered": true,
+   "yes_no": "no",
+   "answer_text": "Deviation: offers 60 days credit from date of delivery in place of the 45 days requested.",
+   "numeric_value": 60,
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P16",
+    "snippet": "Payment: We are pleased to offer 60 days credit from date of delivery, in place of the 45 days requested."
+   }
+  },
+  {
+   "q_id": "Q10",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "Prices firm for 180 days; thereafter adjustment in line with the kraft paper index, only if movement exceeds 6%.",
+   "numeric_value": 180,
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P17",
+    "snippet": "Validity: Prices are firm for 180 days. Thereafter we propose adjustment in line with the kraft paper index, only if movement exceeds 6%."
+   }
+  },
+  {
+   "q_id": "Q11",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "No names given: 'two large personal-care and home-care FMCG companies from our Nashik plant (references available on request)'.",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P22",
+    "snippet": "We currently supply two large personal-care and home-care FMCG companies from our Nashik plant (references available on request)."
+   }
+  },
+  {
+   "q_id": "Q12",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "LD clause: Acceptable as per your RFQ.",
+   "source": {
+    "file": "Deccan_Offer_Letter_NHPC_RFQ047.docx",
+    "location": "P19",
+    "snippet": "LD clause: Acceptable as per your RFQ."
+   }
+  }
+ ],
+ "documents": [
+  {
+   "file": "Deccan_BCT_Test_Report_DCB-QC-BCT-2609.pdf",
+   "doc_type": "test_report",
+   "certificate_no": "DCB/QC/BCT/2609",
+   "holder_name": "Deccan Corrugated Boxes LLP - Quality Control Laboratory",
+   "issue_date": "2026-09-18",
+   "expiry_date": null,
+   "standard": "IS 1060 / IS 1060 Pt II / TAPPI T811 / ASTM D642 / ISO 535",
+   "key_findings": [
+    "Sample: 5-ply RSC 400x300x300 mm (RFx L06 size); date of test 18-09-2026",
+    "In-house (own lab) report, not third-party",
+    "BF 22 sample: Combined GSM 812, Bursting strength 18.4 kg/cm2, ECT 7.6 kN/m, BCT 468 kgf, Moisture 7.9%, Cobb 60 = 128 g/m2 - meets all listed specs",
+    "BF 20 sample: Combined GSM 796, Bursting strength 16.3 kg/cm2 (below spec >= 17.6), ECT 7.1 kN/m, BCT 436 kgf (above >= 420), Moisture 8.1%, Cobb 60 = 131 g/m2",
+    "Remarks: 'BF 20 sample meets BCT requirement with 3.8% margin; bursting strength below BF 22 spec (as expected).'",
+    "Supports the vendor's alternate BF 20 offer for L06 at Rs. 30.35, but confirms bursting strength non-compliance vs RFx BF 22"
+   ],
+   "source": {
+    "file": "Deccan_BCT_Test_Report_DCB-QC-BCT-2609.pdf",
+    "location": "page 1",
+    "snippet": "Test Report No. DCB/QC/BCT/2609 | Date of test: 18-09-2026 | Sample: 5-ply RSC 400x300x300 mm"
+   }
+  }
+ ],
+ "unmatched_vendor_items": [],
+ "overall_notes": "Offer submitted as a prose Word letter (Ref DCB/NHPC/2026/88 dated 21st September 2026) with no priced schedule; all prices were extracted from narrative paragraphs P9-P13. Vendor used RFx item numbers 1-30 which map 1:1 to RFx lines L01-L30. Prices delivered to Bhiwandi, excluding GST @ 18% - matches buyer's requested basis. Key deviations: (a) 60-day payment vs 45 requested; (b) price-variation clause after 180 days tied to kraft paper index if movement exceeds 6%; (c) items 11, 12, 30 (7-ply boxes and bulk bin) declined - outside machine capability, 7-ply line expected Q2 FY28; (d) ISO 9001:2015 certificate claimed (No. TQC/IN/QMS/14-20931, valid to Nov 2027) but NO COPY ATTACHED despite RFx requiring attachment - Q01 evaluation evidence incomplete; (e) Q11 customer names not disclosed. L10 priced only by cross-reference to item 6 BF 22 rate (Rs. 31.80) - no independent figure given. L06 has an alternate BF 20 offer at Rs. 30.35 which is a spec deviation (bursting strength 16.3 vs spec >= 17.6 per their own test report). Only enclosure is the vendor's own in-house BCT test report; no third-party test certificate, no GST certificate. Free plates/dies apply only to the first artwork of each item - repeat/changed artwork charges unquantified."
+}

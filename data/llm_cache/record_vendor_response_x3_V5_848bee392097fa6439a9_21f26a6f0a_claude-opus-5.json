@@ -1,0 +1,807 @@
+{
+ "vendor_name_as_written": "Om Sai Corrugators, Umbergaon",
+ "response_date": "2026-09-22",
+ "overall_notes": "Vendor responded with a single informal email only (no filled Excel template, no ISO certificate, no BCT test report attached). The entire commercial offer is three clauses in [L3]: \"₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.\" No per-piece prices, no box weights, and no dimension-wise pricing were provided, so no line can be priced as an absolute per-piece amount. Interpretation applied: the per-kg rates are treated as blanket rates covering the 3-ply lines and 5-ply lines respectively; \"rest same as last year\" is treated as covering the categories not addressed by a per-kg rate (7-ply, 2-ply rolls, die-cut mailers/trays/inserts, partition sets, layer pads). Because \"rest\" is undefined, there is a competing reading in which the per-kg rates cover ONLY plain RSC boxes and all die-cut / converted items fall under \"same as last year\"; where relevant this ambiguity is recorded on the line. Even for the per-kg lines the landed per-piece cost cannot be computed without board weight per box, which the vendor did not supply. Questionnaire largely unanswered; Q01/Q03 answered only by reference to \"Docs same as last year, you have them on file\" - a claim, with no document attached and therefore no verifiable validity on the bid due date. Moisture claim \"below 10%\" fails the <=9% criterion. Price basis is ex-works/unclear since freight is explicitly extra with no amount. No price validity, no payment term acceptance, no LD acceptance, no capacity, no plant distance, no references given. Bid was sent 22-Sep-2026 21:47 IST, i.e. after the stated 6 PM cut-off on the due date sequence (due 23-Sep-2026 6 PM, so within date but note timing of receipt).",
+ "commercial": {
+  "currency": "INR",
+  "price_basis": "ex_works",
+  "freight": {
+   "type": "extra_amount_unknown",
+   "per": "none",
+   "amount_inr": null,
+   "conditions_text": "Freight stated as extra with no rate, basis or amount; buyer asked for DELIVERED Bhiwandi, so this is a deviation and landed cost cannot be determined.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  "payment_days": null,
+  "payment_text": "No acceptance of the requested 45-day terms. Vendor only offers: \"Can give 2% cash discount if payment in 7 days.\" (L6) - implies a preference for early payment; 45-day acceptance neither confirmed nor refused.",
+  "validity_days": null,
+  "validity_text": "No price validity stated anywhere in the email; RFx required 180 days. Deviation / non-response.",
+  "price_variation_clause": null,
+  "gst_text": null,
+  "delivery_lead_time_text": "\"Lead time usual 7 days.\" (L5)",
+  "discounts": [
+   {
+    "description": "2% cash discount for payment within 7 days",
+    "pct": 2,
+    "conditional": true,
+    "condition": "Payment made within 7 days",
+    "source": {
+     "file": "Re_RFQ_NHPC-047_OmSai.eml",
+     "location": "L6",
+     "snippet": "Can give 2% cash discount if payment in 7 days."
+    }
+   }
+  ],
+  "other_charges": [],
+  "other_deviations": [
+   "Buyer's Excel response template not used; no line-item pricing submitted for any of the 30 RFx lines.",
+   "Price basis deviates: freight extra (ex-works style) vs RFx requirement of DELIVERED Bhiwandi, and no freight amount given.",
+   "Prices quoted on a per-kg board basis, not per piece / per set / per roll as required by the RFx units of measure; no box weights supplied so per-piece cost is not derivable.",
+   "\"rest same as last year\" - no prices quoted for the remaining categories; relies on prior-year contract which is not part of this bid.",
+   "Price validity (180 days required) not stated.",
+   "45-day payment terms not confirmed (Q09 unanswered); vendor pushes 7-day payment against 2% discount.",
+   "Liquidated damages clause (1%/week, max 5%) not accepted or commented on.",
+   "ISO 9001:2015 certificate and recent BCT test report not attached - vendor says \"Docs same as last year, you have them on file.\"",
+   "Guaranteed moisture stated as \"below 10%\", which does not meet the <= 9% requirement.",
+   "Vendor presumes contract start (\"ready to start 1st Oct as usual\") without confirming RFx terms.",
+   "No paper-price variation clause stated despite per-kg quoting basis - open-ended price risk if kraft prices move."
+  ]
+ },
+ "line_quotes": [
+  {
+   "rfx_line_id": "L01",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.5,
+   "match_reason": "Blanket per-kg rate for \"the 3-ply\" applied to this 3-ply RSC line; no dimension-specific quote given.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "No confirmation of 150/120/150 GSM, BF 18 or plain finish; rate is a generic board rate.",
+   "ambiguity": "Vendor gives only ₹38/kg for \"the 3-ply\" with no box weight, so per-piece price cannot be derived. Competing reading: the per-kg rate may be intended only as an indicative board rate with actual box prices being \"same as last year\".",
+   "notes": "Currency symbol ₹ appears once before 42; \"38\" assumed same currency and per-kg basis by parallel construction.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L02",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.5,
+   "match_reason": "3-ply RSC line covered by the blanket ₹38/kg 3-ply rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "GSM/BF/print not confirmed.",
+   "ambiguity": "No box weight supplied, so per-piece cost is not computable; alternative reading is that box prices are \"same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L03",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.45,
+   "match_reason": "3-ply RSC, so nominally within the ₹38/kg 3-ply rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "Line requires 1-colour printing; the per-kg board rate says nothing about printing or plate/ink charges.",
+   "ambiguity": "Unclear whether the ₹38/kg 3-ply board rate includes 1-colour printing, or whether printed boxes fall under \"rest same as last year\". Printing cost is not a per-kg board cost.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L04",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.45,
+   "match_reason": "3-ply RSC within the blanket 3-ply per-kg rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "1-colour print requirement not addressed by a per-kg board rate.",
+   "ambiguity": "Same as L03: printing inclusion in the ₹38/kg rate is undefined; may instead be \"same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L05",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.45,
+   "match_reason": "3-ply RSC within the blanket 3-ply per-kg rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "1-colour print requirement not addressed; GSM 180/150/180 BF 20 not confirmed.",
+   "ambiguity": "Printing inclusion undefined; alternative reading \"same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L06",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.45,
+   "match_reason": "5-ply RSC line covered by the blanket ₹42/kg 5-ply rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "2-colour printing requirement not addressed by a per-kg board rate; BF 22 / GSM combination not confirmed.",
+   "ambiguity": "Unclear whether ₹42/kg covers 2-colour printed boxes or only plain board; printed items may fall under \"rest same as last year\". No box weight given, so per-piece cost not computable.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L07",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.45,
+   "match_reason": "5-ply RSC within the blanket 5-ply per-kg rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "2-colour print not addressed.",
+   "ambiguity": "Printing inclusion in the per-kg rate undefined; weight per box not given.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L08",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.45,
+   "match_reason": "5-ply RSC within the blanket 5-ply per-kg rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "2-colour print and higher spec (200/150/180/150/200 GSM, BF 24) not separately priced; single flat 5-ply rate offered regardless of BF/GSM.",
+   "ambiguity": "Whether a flat ₹42/kg applies to the heavier BF 24 board is not stated; printed items may be \"same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L09",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.5,
+   "match_reason": "Plain 5-ply RSC - the clearest fit for the blanket ₹42/kg 5-ply rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "BF 24 / 200 GSM liners not specifically confirmed; flat rate offered across all 5-ply grades.",
+   "ambiguity": "No box weight given, so per-piece cost not derivable.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L10",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.5,
+   "match_reason": "Plain 5-ply RSC covered by the blanket ₹42/kg 5-ply rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "ambiguity": "No weight per box given; per-piece price not computable.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L11",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.4,
+   "match_reason": "7-ply is neither 3-ply nor 5-ply, so it falls into the undefined \"rest same as last year\" bucket.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "\"rest same as last year\" is undefined: it may mean last year's contracted 7-ply price applies, or that no offer exists for 7-ply at all. Also unclear whether this was a live item last year (buyer must verify a prior-year rate exists). No price extractable.",
+   "notes": "L05 questionnaire answer Q05 (7-ply capability) also unanswered, so even technical capability for this line is unconfirmed beyond \"as usual\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L12",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.4,
+   "match_reason": "7-ply line, outside the 3-ply and 5-ply per-kg rates, therefore in the \"rest\" bucket.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Same as L11 - \"same as last year\" price not stated and existence of a prior-year rate not evidenced.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L13",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "3-ply die-cut E-flute mailer with white liner and 4-colour print - a converted item; treated as \"rest\" rather than the plain 3-ply board rate.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Competing interpretations: (a) it is 3-ply, so ₹38/kg applies; (b) it is a 4-colour die-cut mailer on E-flute white kraft, which a per-kg board rate cannot represent, so \"same as last year\" applies. Neither yields a usable per-piece price.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L14",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "Die-cut 4-colour E-flute mailer; converted item assigned to the \"rest\" bucket.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Same competing readings as L13 (₹38/kg 3-ply board rate vs \"same as last year\"); no die-cutting or plate charge quoted either way.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L15",
+   "status": "not_quoted",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": null,
+   "match_confidence": 0.6,
+   "match_reason": "NEW ITEM FY27 - by definition cannot be covered by \"same as last year\", and no per-piece or die-cut price was offered.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "notes": "New item; vendor gave no price, no tooling/die charge and no lead time for new development.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L16",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "5-ply die-cut shelf-ready tray with tear-off front and 2-colour print; converted/die-cut item placed in the \"rest\" bucket rather than the plain ₹42/kg 5-ply board rate.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Could be argued to fall under ₹42/kg (it is 5-ply), but die-cutting, tear-off feature and printing are not reflected in a board per-kg rate. No usable price either way.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L17",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "12-cell partition set priced per set; not a box, so assigned to \"rest\". A per-kg 3-ply rate could arguably apply to the board.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Competing readings: 3-ply board at ₹38/kg vs \"same as last year\" per-set price. RFx unit is per set; vendor gave neither a per-set price nor set weight.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L18",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "6-cell partition set, per-set UOM; assigned to \"rest\" bucket.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Same as L17 - unclear whether ₹38/kg 3-ply board rate or an unstated last-year per-set price applies.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L19",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "3-ply layer pad (flat sheet), not a box; placed in \"rest\" bucket though the ₹38/kg 3-ply board rate could arguably cover flat pads.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Plain 3-ply flat pad is the case where a per-kg board rate would most plausibly apply (₹38/kg), but the vendor never says so; no pad weight given either, so no per-piece price results.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L20",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.35,
+   "match_reason": "5-ply pallet layer pad; flat sheet rather than box, so \"rest\" bucket, though ₹42/kg 5-ply could arguably apply.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "Competing readings ₹42/kg 5-ply board vs \"same as last year\"; no sheet weight supplied.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L21",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.5,
+   "match_reason": "2-ply roll is neither 3-ply nor 5-ply, so it clearly falls outside both per-kg rates and into \"rest same as last year\".",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "No last-year price stated; RFx UOM is per roll and no roll price or roll weight was given.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L22",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.5,
+   "match_reason": "2-ply roll - outside the 3-ply/5-ply per-kg rates, therefore \"rest\".",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "No last-year price stated; no per-roll price given.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L23",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.5,
+   "match_reason": "Plain 3-ply RSC covered by the blanket ₹38/kg 3-ply rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "BF 20 / 180-150-180 GSM not specifically confirmed; a single flat 3-ply rate is offered across all grades.",
+   "ambiguity": "No box weight given, so per-piece cost not computable.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L24",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.45,
+   "match_reason": "5-ply RSC within the blanket ₹42/kg 5-ply rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "1-colour print requirement not addressed by the per-kg board rate.",
+   "ambiguity": "Printing inclusion undefined; printed items may instead fall under \"rest same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L25",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.45,
+   "match_reason": "3-ply RSC within the blanket ₹38/kg 3-ply rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "spec_deviation": "1-colour print not addressed.",
+   "ambiguity": "Printing inclusion in the per-kg rate undefined.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L26",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.45,
+   "match_reason": "5-ply RSC within the blanket ₹42/kg 5-ply rate.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "1-colour print not addressed.",
+   "ambiguity": "Printing inclusion undefined; no box weight for per-piece conversion.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L27",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 38,
+   "price_unit": "per_kg",
+   "price_unit_text": "38 (₹) per kg for 3-ply",
+   "currency": "INR",
+   "vendor_item_text": "38 for the 3-ply",
+   "match_confidence": 0.5,
+   "match_reason": "Plain 3-ply RSC covered by the blanket ₹38/kg 3-ply rate.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "ambiguity": "No box weight given; per-piece price not derivable. Small box with high conversion content per kg - per-kg quoting is particularly unrepresentative here.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L28",
+   "status": "unclear",
+   "quote_form": "per_kg_rate",
+   "price": 42,
+   "price_unit": "per_kg",
+   "price_unit_text": "₹42/kg for 5-ply",
+   "currency": "INR",
+   "vendor_item_text": "₹42/kg for the 5-ply",
+   "match_confidence": 0.4,
+   "match_reason": "5-ply plain container; board type matches the ₹42/kg 5-ply rate, but it is an HSC (no top flaps), not an RSC.",
+   "extraction_confidence": 0.95,
+   "legibility": "clear",
+   "spec_deviation": "HSC construction not acknowledged by the vendor anywhere.",
+   "ambiguity": "Unclear whether the flat 5-ply per-kg rate is intended to cover HSC style or whether HSC falls in \"rest same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L29",
+   "status": "not_quoted",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": null,
+   "match_confidence": 0.6,
+   "match_reason": "NEW ITEM FY27 die-cut insert/fitment - cannot be covered by \"same as last year\"; no die-cut or per-piece price offered.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "notes": "A ₹38/kg 3-ply board rate could theoretically be argued, but this is a die-cut fitment and the vendor offered no conversion/die charge or piece price.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "rfx_line_id": "L30",
+   "status": "unclear",
+   "quote_form": "same_as_last_year",
+   "price": null,
+   "price_unit": "none",
+   "currency": "INR",
+   "vendor_item_text": "rest same as last year",
+   "match_confidence": 0.4,
+   "match_reason": "7-ply bulk bin with lid - outside the 3-ply/5-ply per-kg rates, so in the \"rest\" bucket.",
+   "extraction_confidence": 0.2,
+   "legibility": "not_applicable",
+   "ambiguity": "No price stated; unclear whether a prior-year rate exists for this bulk bin, and whether the separate lid is included.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  }
+ ],
+ "questionnaire": [
+  {
+   "q_id": "Q01",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "Not answered directly. Vendor only states \"Docs same as last year, you have them on file.\" No ISO 9001:2015 certificate attached, so validity on the bid due date (2026-09-23) cannot be verified.",
+   "evidence_claimed": "Claims buyer already holds his documents on file; no certificate submitted with this bid.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L5",
+    "snippet": "Lead time usual 7 days. Docs same as last year, you have them on file. Moisture we maintain below 10%."
+   }
+  },
+  {
+   "q_id": "Q02",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "No monthly corrugation capacity stated anywhere in the response.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L1-L13",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "q_id": "Q03",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "In-house testing lab not addressed. Only indirect reference is \"Docs same as last year\"; no test report (BCT or otherwise) attached.",
+   "evidence_claimed": "\"Docs same as last year, you have them on file.\" - claim only, no test report submitted.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L5",
+    "snippet": "Docs same as last year, you have them on file."
+   }
+  },
+  {
+   "q_id": "Q04",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "\"Lead time usual 7 days.\"",
+   "numeric_value": 7,
+   "numeric_upper_bound": 7,
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L5",
+    "snippet": "Lead time usual 7 days."
+   }
+  },
+  {
+   "q_id": "Q05",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "7-ply / bulk bin capability not stated. Vendor did not quote 7-ply lines either, leaving them under \"rest same as last year\".",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "rest same as last year"
+   }
+  },
+  {
+   "q_id": "Q06",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "\"Moisture we maintain below 10%.\" - this is a maintained level, not an explicit guarantee, and 10% exceeds the <= 9% requirement.",
+   "numeric_value": 10,
+   "numeric_upper_bound": 10,
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L5",
+    "snippet": "Moisture we maintain below 10%."
+   }
+  },
+  {
+   "q_id": "Q07",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "Recycled fibre content and FSC availability not mentioned.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L1-L13",
+    "snippet": "Om Sai Corrugators, Umbergaon"
+   }
+  },
+  {
+   "q_id": "Q08",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "No plant address or distance to Bhiwandi given; only the location \"Umbergaon\" appears in the signature.",
+   "evidence_claimed": "Signature block: \"Om Sai Corrugators, Umbergaon\" - location implied, distance not stated.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L12",
+    "snippet": "Om Sai Corrugators, Umbergaon"
+   }
+  },
+  {
+   "q_id": "Q09",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "45-day payment terms neither accepted nor refused. Vendor instead offers a 2% cash discount for payment in 7 days, implying a preference for much earlier payment.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L6",
+    "snippet": "Can give 2% cash discount if payment in 7 days."
+   }
+  },
+  {
+   "q_id": "Q10",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "No price validity period offered and no paper-price variation clause stated. Deviation against the required 180 days; note that prices are quoted on a per-kg board basis without any escalation mechanism defined.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L3",
+    "snippet": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+   }
+  },
+  {
+   "q_id": "Q11",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "No customer references provided.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L1-L13",
+    "snippet": "Pls confirm, we are ready to start 1st Oct as usual."
+   }
+  },
+  {
+   "q_id": "Q12",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": "Liquidated damages clause (1% per week, max 5%) not addressed at all.",
+   "source": {
+    "file": "Re_RFQ_NHPC-047_OmSai.eml",
+    "location": "L1-L13",
+    "snippet": "Pls confirm, we are ready to start 1st Oct as usual."
+   }
+  }
+ ],
+ "documents": [],
+ "unmatched_vendor_items": [
+  {
+   "text": "\"rest same as last year\" - a blanket carry-forward statement covering every line not addressed by the ₹42/kg (5-ply) or ₹38 (3-ply) per-kg rates. No item list, no prices and no reference to a specific prior contract/rate sheet.",
+   "price": null,
+   "reason": "Cannot be resolved to any price; the prior-year rate sheet is not part of this submission. Buyer must obtain last year's contracted rates to evaluate, and must confirm which lines the vendor intends this to cover (especially the die-cut, partition, pad and roll items)."
+  }
+ ]
+}

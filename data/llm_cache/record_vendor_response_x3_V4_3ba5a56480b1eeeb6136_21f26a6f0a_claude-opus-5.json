@@ -1,0 +1,1051 @@
+{
+ "vendor_name_as_written": "RATHI KRAFT & PACKAGING",
+ "response_date": "2026-09-20",
+ "commercial": {
+  "currency": "INR",
+  "price_basis": "delivered",
+  "freight": {
+   "type": "conditional_free",
+   "per": "none",
+   "conditions_text": "Transport FREE within Bhiwandi. Buyer warehouse is at Bhiwandi, so freight appears covered, but no statement for deliveries outside Bhiwandi.",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "footnote line 1 of rate list",
+    "snippet": "* GST 18% extra.  * Transport FREE within Bhiwandi.",
+    "bbox": [
+     0.1,
+     0.63,
+     0.62,
+     0.665
+    ]
+   }
+  },
+  "gst_text": "GST 18% extra.",
+  "payment_days": 30,
+  "payment_text": "* Payment: 30 days.",
+  "validity_days": null,
+  "validity_text": "* Rates valid till 31-10-2026. (fixed expiry date, not a day count; far short of the 180 days required from bid due date 2026-09-23)",
+  "price_variation_clause": "* Rates subject to change without notice as per paper market.",
+  "other_charges": [
+   {
+    "description": "Printing block / die charges extra as actual",
+    "amount_inr": null,
+    "basis": "at actuals",
+    "source": {
+     "file": "IMG_20260920_174213.jpg",
+     "location": "footnote line 2 of rate list",
+     "snippet": "* Printing block / die charges extra as actual.",
+     "bbox": [
+      0.09,
+      0.645,
+      0.45,
+      0.685
+     ]
+    }
+   }
+  ],
+  "discounts": [],
+  "other_deviations": [
+   "Payment offered 30 days vs 45 days requested (vendor terms are shorter/more onerous for buyer? - it is a deviation from RFx 45 days).",
+   "Price validity only till 31-10-2026 vs 180 days required.",
+   "Rates subject to change without notice as per paper market - open-ended price variation clause, not acceptable as firm price.",
+   "GST 18% extra (RFx asked prices excluding GST - consistent).",
+   "Transport free only 'within Bhiwandi'; no rate given for outside.",
+   "No response to questionnaire Q01-Q12 except ISO claim in footnote; no documents attached.",
+   "Rate list is a generic Sept 2026 price list, not an RFx-specific bid; sizes quoted in inches, unspecified whether internal or external dimensions.",
+   "No GSM / BF / board specification stated for any line - compliance with RFx board specs unverified."
+  ]
+ },
+ "line_quotes": [
+  {
+   "rfx_line_id": "L01",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.6,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "1  Box RSC",
+   "vendor_size_text": "7 x 4.75 x 3.25 (inch), 3 ply",
+   "vendor_qty": null,
+   "vendor_qty_unit": null,
+   "match_confidence": 0.83,
+   "match_reason": "7 x 4.75 x 3.25 in = approx 178 x 121 x 83 mm; closest to RFx 200x150x100 mm? No - 178x121x83 matches L27 (180x120x80) better. However list order and next entry 7.75x6x4 in = 197x152x102 mm matches L01 exactly. Row 1 therefore maps to L27, row 2 to L01. See L27.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 2 of rate list (No 2, Box RSC, 7.75 x 6 x 4, ply 3)",
+    "snippet": "2   Box RSC    7.75 x 6 x 4    3    3.40    box",
+    "bbox": [
+     0.16,
+     0.185,
+     0.83,
+     0.24
+    ]
+   },
+   "notes": "CORRECTION: L01 (200x150x100 mm = 7.87 x 5.9 x 3.94 in) matches rate-list row 2 '7.75 x 6 x 4' at Rs 3.40/box, NOT row 1. Price recorded here is from row 2.",
+   "ambiguity": "Vendor gives no GSM/BF; sizes in inches and not stated whether internal or external.",
+   "spec_deviation": "Board spec (150/120/150 GSM, BF 18) not stated by vendor."
+  },
+  {
+   "rfx_line_id": "L02",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 8.4,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "3  Box RSC 1 clr print",
+   "vendor_size_text": "8.75 x 8.75 x 8.75 (inch), 3 ply",
+   "vendor_qty": null,
+   "vendor_qty_unit": null,
+   "match_confidence": 0.15,
+   "match_reason": "No good match by size for L02 (250x200x150 mm = 9.84 x 7.87 x 5.9 in). Row 4 '9.75 x 7.75 x 6' = 248 x 197 x 152 mm matches L02 almost exactly at Rs 5.70/box, plain (Box RSC). Price recorded should be 5.70 - see notes.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 4 of rate list (No 4, Box RSC, 9.75 x 7.75 x 6, ply 3)",
+    "snippet": "4   Box RSC    9.75 x 7.75 x 6    3    5.70    box",
+    "bbox": [
+     0.16,
+     0.21,
+     0.83,
+     0.29
+    ]
+   },
+   "notes": "OVERRIDE: correct price for L02 is Rs 5.70 per box (row 4, 9.75x7.75x6 in = 248x197x152 mm, plain 3-ply). The value 8.40 in the price field is erroneous; treat 5.70 as the quote.",
+   "ambiguity": "Field 'price' inconsistency flagged; authoritative value per snippet is 5.70.",
+   "spec_deviation": "Board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L03",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 8.6,
+   "struck_out_value": 9.0,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "5  Box RSC 1 clr print",
+   "vendor_size_text": "11.75 x 7.75 x 6 (inch), 3 ply",
+   "match_confidence": 0.9,
+   "match_reason": "11.75 x 7.75 x 6 in = 298 x 197 x 152 mm ~ RFx L03 300x200x150 mm; 1 colour print matches.",
+   "extraction_confidence": 0.85,
+   "legibility": "handwritten_correction",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 5 of rate list (No 5, Box RSC 1 clr print, 11.75 x 7.75 x 6, ply 3)",
+    "snippet": "5   Box RSC 1 clr print   11.75 x 7.75 x 6   3   9.00 [struck through]  8.60  box",
+    "bbox": [
+     0.16,
+     0.245,
+     0.83,
+     0.305
+    ]
+   },
+   "notes": "Printed rate 9.00 struck out in blue pen and replaced by handwritten 8.60.",
+   "spec_deviation": "Board GSM/BF not stated (RFx 180/120/180, BF 20)."
+  },
+  {
+   "rfx_line_id": "L04",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 12.8,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "6  Box RSC 1 clr print",
+   "vendor_size_text": "13.75 x 9.75 x 7.75 (inch), 3 ply",
+   "match_confidence": 0.9,
+   "match_reason": "13.75 x 9.75 x 7.75 in = 349 x 248 x 197 mm ~ RFx L04 350x250x200 mm; 1 colour matches.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 6 of rate list (No 6, Box RSC 1 clr print, 13.75 x 9.75 x 7.75, ply 3)",
+    "snippet": "6   Box RSC 1 clr print   13.75 x 9.75 x 7.75   3   12.80   box",
+    "bbox": [
+     0.16,
+     0.26,
+     0.83,
+     0.32
+    ]
+   },
+   "spec_deviation": "Board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L05",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 17.9,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "7  Box RSC 1 clr print",
+   "vendor_size_text": "15.75 x 11.75 x 7.75 (inch), 3 ply",
+   "match_confidence": 0.9,
+   "match_reason": "15.75 x 11.75 x 7.75 in = 400 x 298 x 197 mm ~ RFx L05 400x300x200 mm; 1 colour matches.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 7 of rate list (No 7, Box RSC 1 clr print, 15.75 x 11.75 x 7.75, ply 3)",
+    "snippet": "7   Box RSC 1 clr print   15.75 x 11.75 x 7.75   3   17.90   box",
+    "bbox": [
+     0.16,
+     0.275,
+     0.83,
+     0.335
+    ]
+   },
+   "spec_deviation": "Board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L06",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 30.4,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "10  Box RSC 2 clr print",
+   "vendor_size_text": "15.75 x 11.75 x 11.75 (inch), 5 ply",
+   "match_confidence": 0.88,
+   "match_reason": "15.75 x 11.75 x 11.75 in = 400 x 298 x 298 mm ~ RFx L06 400x300x300 mm, 5-ply, 2-colour matches.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 10 of rate list (No 10, Box RSC 2 clr print, 15.75 x 11.75 x 11.75, ply 5)",
+    "snippet": "10  Box RSC 2 clr print   15.75 x 11.75 x 11.75   5   30.40   box",
+    "bbox": [
+     0.16,
+     0.315,
+     0.83,
+     0.375
+    ]
+   },
+   "spec_deviation": "Board GSM/BF not stated (RFx 180/120/150/120/180, BF 22)."
+  },
+  {
+   "rfx_line_id": "L07",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 37.05,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "11  Box RSC 1 clr print",
+   "vendor_size_text": "17.75 x 11.75 x 9.75? — see notes",
+   "match_confidence": 0.3,
+   "match_reason": "L07 is 450x350x300 mm = 17.7 x 13.78 x 11.81 in. Row 13 '17.75 x 13.75 x 11.75', 5-ply, 2 clr print at Rs 40.60 is the exact match. Row 11 (17.75x11.75x9.75, 1 clr, 37.05) does not match.",
+   "extraction_confidence": 0.85,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 13 of rate list (No 13, Box RSC 2 clr print, 17.75 x 13.75 x 11.75, ply 5)",
+    "snippet": "13  Box RSC 2 clr print   17.75 x 13.75 x 11.75   5   40.60   box",
+    "bbox": [
+     0.16,
+     0.35,
+     0.83,
+     0.415
+    ]
+   },
+   "notes": "OVERRIDE: correct quote for L07 is Rs 40.60 per box (row 13). The 37.05 in price field is erroneous.",
+   "ambiguity": "Row 11 vs row 13; row 13 matches on all three dimensions and 2-colour print."
+  },
+  {
+   "rfx_line_id": "L08",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 71.2,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "15  Box RSC",
+   "vendor_size_text": "19.75 x 15.75 x 13.75 (inch), 5 ply",
+   "match_confidence": 0.55,
+   "match_reason": "19.75 x 15.75 x 13.75 in = 502 x 400 x 349 mm ~ RFx L08 500x400x350 mm, 5-ply. BUT vendor item is plain 'Box RSC' whereas RFx L08 requires 2-colour print.",
+   "extraction_confidence": 0.85,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 15 of rate list (No 15, Box RSC, 19.75 x 15.75 x 13.75, ply 5)",
+    "snippet": "15  Box RSC   19.75 x 15.75 x 13.75   5   71.20   box",
+    "bbox": [
+     0.16,
+     0.385,
+     0.83,
+     0.44
+    ]
+   },
+   "spec_deviation": "Offered plain (no print); RFx L08 requires 2-colour printing. Printing block charges extra as actual.",
+   "ambiguity": "Row 14 (17.75x13.75x11.75? / 23.5x15.75x15.75) alternatives do not match; dimension match is strong but print level differs."
+  },
+  {
+   "rfx_line_id": "L09",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 80.65,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "16  Box Open Top (HSC) / 23.5 x 15.75 x 15.75",
+   "vendor_size_text": "23.5 x 15.75 x 15.75 (inch), 5 ply",
+   "match_confidence": 0.35,
+   "match_reason": "23.5 x 15.75 x 15.75 in = 597 x 400 x 400 mm ~ RFx L09 600x400x400 mm, 5-ply plain — dimensionally exact. However this rate-list row is labelled 'Box Open Top (HSC)', i.e. half-slotted, which is RFx L28's construction, not a full RSC.",
+   "extraction_confidence": 0.7,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "rows 15-16 of rate list (size column offset)",
+    "snippet": "16  Box Open Top (HSC)   23.5 x 15.75 x 15.75   5   80.65   box",
+    "bbox": [
+     0.13,
+     0.4,
+     0.83,
+     0.46
+    ]
+   },
+   "notes": "Rate-list columns are visually offset in the photograph (item names and size/ply/rate rows do not line up cleanly). Alignment of size 23.5x15.75x15.75 and rate 80.65 to item 16 is uncertain. Needs vendor confirmation.",
+   "ambiguity": "Either (a) item 16 HSC 597x400x400 mm plain at 80.65 which would be a construction deviation for L09, or (b) column slip and 80.65 belongs to a plain RSC of that size. Cannot resolve from the photo.",
+   "spec_deviation": "Possibly Open Top / HSC construction instead of RSC; board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L10",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 36.2,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "14  Box RSC 2 clr print / 13.75 x 13.75 x 13.75",
+   "vendor_size_text": "13.75 x 13.75 x 13.75 (inch), 5 ply",
+   "match_confidence": 0.45,
+   "match_reason": "13.75 in cube = 349 mm cube. RFx L10 is 300x300x300 mm (11.8 in cube) plain 5-ply; RFx L24 is 350x350x350 mm 5-ply 1-colour. The 13.75 cube therefore matches L24, not L10. No 11.75 cube 5-ply plain row is clearly present for L10 — row 9 '11.75 x 11.75 x 11.75, 5 ply, 27.05' matches L10 on size.",
+   "extraction_confidence": 0.8,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 9 of rate list (No 9, Box RSC, 11.75 x 11.75 x 11.75, ply 5)",
+    "snippet": "9   Box RSC   11.75 x 11.75 x 11.75   5   27.05   box",
+    "bbox": [
+     0.16,
+     0.3,
+     0.83,
+     0.36
+    ]
+   },
+   "notes": "OVERRIDE: L10 (300 mm cube, 5-ply plain) matches the 11.75 in cube 5-ply 'Box RSC' row at Rs 27.05 per box. Treat 27.05 as the quote; 36.20 shown in price field belongs to the 13.75 cube row (L24).",
+   "ambiguity": "Column offset in photo makes item-name/size pairing uncertain."
+  },
+  {
+   "rfx_line_id": "L11",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 181.55,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "20  Box RSC (7 ply)",
+   "vendor_size_text": "23.5 x 19.75 x 19.75 (inch), 7 ply",
+   "match_confidence": 0.8,
+   "match_reason": "23.5 x 19.75 x 19.75 in = 597 x 502 x 502 mm ~ RFx L11 600x500x500 mm, 7-ply plain.",
+   "extraction_confidence": 0.8,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "rows 19-20 of rate list (7 ply, 23.5 x 19.75 x 19.75)",
+    "snippet": "23.5 x 19.75 x 19.75   7   181.55   box",
+    "bbox": [
+     0.13,
+     0.47,
+     0.83,
+     0.52
+    ]
+   },
+   "notes": "Item-name column offset; rate 181.55 is the only 7-ply row matching this size.",
+   "spec_deviation": "Board GSM/BF not stated (RFx BF 28)."
+  },
+  {
+   "rfx_line_id": "L12",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 265.75,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "21  Box RSC (7 ply)",
+   "vendor_size_text": "31.5 x 23.5 x 19.75 (inch), 7 ply",
+   "match_confidence": 0.8,
+   "match_reason": "31.5 x 23.5 x 19.75 in = 800 x 597 x 502 mm ~ RFx L12 800x600x500 mm, 7-ply plain.",
+   "extraction_confidence": 0.8,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "rows 20-21 of rate list (7 ply, 31.5 x 23.5 x 19.75)",
+    "snippet": "31.5 x 23.5 x 19.75   7   265.75   box",
+    "bbox": [
+     0.13,
+     0.485,
+     0.83,
+     0.535
+    ]
+   },
+   "spec_deviation": "Board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L13",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 11.35,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "E-com Mailer 4 clr (E flute)",
+   "vendor_size_text": "9.75 x 7 x 2.25 (inch), 3 ply",
+   "match_confidence": 0.85,
+   "match_reason": "9.75 x 7 x 2.25 in = 248 x 178 x 57 mm ~ RFx L13 250x180x60 mm; 4-colour E-flute mailer matches.",
+   "extraction_confidence": 0.8,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "E-com Mailer rows of rate list (9.75 x 7 x 2.25, ply 3)",
+    "snippet": "E-com Mailer 4 clr (E flute)   9.75 x 7 x 2.25   3   11.35   box",
+    "bbox": [
+     0.13,
+     0.5,
+     0.83,
+     0.555
+    ]
+   },
+   "spec_deviation": "White kraft top liner / roll-end tuck-front not confirmed; die charges extra as actual."
+  },
+  {
+   "rfx_line_id": "L14",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 15.5,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "E-com Mailer 4 clr (E flute)",
+   "vendor_size_text": "11.75 x 8.75 x 3.25 (inch), 3 ply",
+   "match_confidence": 0.85,
+   "match_reason": "11.75 x 8.75 x 3.25 in = 298 x 222 x 83 mm ~ RFx L14 300x220x80 mm; 4-colour E-flute mailer.",
+   "extraction_confidence": 0.8,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "E-com Mailer rows of rate list (11.75 x 8.75 x 3.25, ply 3)",
+    "snippet": "E-com Mailer 4 clr (E flute)   11.75 x 8.75 x 3.25   3   15.50   box",
+    "bbox": [
+     0.13,
+     0.515,
+     0.83,
+     0.565
+    ]
+   },
+   "spec_deviation": "White kraft top liner not confirmed; die charges extra."
+  },
+  {
+   "rfx_line_id": "L15",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 20.65,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "E-com Mailer 4 clr (E flute)",
+   "vendor_size_text": "13.75 x 9.75 x 4 (inch), 3 ply",
+   "match_confidence": 0.8,
+   "match_reason": "13.75 x 9.75 x 4 in = 349 x 248 x 102 mm ~ RFx L15 350x250x100 mm; 4-colour E-flute mailer (new item).",
+   "extraction_confidence": 0.8,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "E-com Mailer rows of rate list (13.75 x 9.75 x 4, ply 3)",
+    "snippet": "E-com Mailer 4 clr (E flute)   13.75 x 9.75 x 4   3   20.65   box",
+    "bbox": [
+     0.13,
+     0.53,
+     0.83,
+     0.58
+    ]
+   },
+   "spec_deviation": "White kraft top liner not confirmed; die charges extra."
+  },
+  {
+   "rfx_line_id": "L16",
+   "status": "not_quoted",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "vendor_item_text": null,
+   "match_confidence": 0.9,
+   "match_reason": "No shelf-ready die-cut tray on the rate list; handwritten note says to call for trays.",
+   "extraction_confidence": 0.9,
+   "legibility": "handwritten_correction",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "handwritten note at bottom of rate list",
+    "snippet": "For Nirvana - Ananya madam. Pls call for trays.",
+    "bbox": [
+     0.38,
+     0.745,
+     0.75,
+     0.79
+    ]
+   },
+   "notes": "Vendor explicitly asks buyer to call for tray pricing - no rate offered."
+  },
+  {
+   "rfx_line_id": "L17",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 10.85,
+   "currency": "INR",
+   "price_unit": "per_set",
+   "price_unit_text": "set",
+   "vendor_item_text": "Partition 12 cell - for 15.75x11.75 box",
+   "vendor_size_text": "for 15.75 x 11.75 box, 3 ply",
+   "match_confidence": 0.8,
+   "match_reason": "12-cell partition for a 15.75x11.75 in (400x300 mm) box = RFx L17 (12-cell, fits 400x300 mm). Priced per set.",
+   "extraction_confidence": 0.75,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "Partition 12 cell row of rate list",
+    "snippet": "Partition 12 cell   for 15.75x11.75 box   3   10.85   set",
+    "bbox": [
+     0.13,
+     0.545,
+     0.83,
+     0.6
+    ]
+   },
+   "notes": "Height (290 mm) not stated by vendor.",
+   "spec_deviation": "Partition height not confirmed."
+  },
+  {
+   "rfx_line_id": "L18",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.7,
+   "currency": "INR",
+   "price_unit": "per_set",
+   "price_unit_text": "set",
+   "vendor_item_text": "Partition 6 cell - for 11.75x7.75 box",
+   "vendor_size_text": "for 11.75 x 7.75 box, 3 ply",
+   "match_confidence": 0.75,
+   "match_reason": "6-cell partition for a 11.75x7.75 in (300x200 mm) box = RFx L18 (6-cell, fits 300x200 mm).",
+   "extraction_confidence": 0.6,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "Partition 6 cell row of rate list",
+    "snippet": "Partition 6 cell   for 11.75x7.75 box   3   2.70   set",
+    "bbox": [
+     0.13,
+     0.56,
+     0.83,
+     0.615
+    ]
+   },
+   "notes": "Column alignment in the photo is offset; the pairing of rate 2.70 with the 6-cell partition row is uncertain (could be 2.55). Height 140 mm not stated.",
+   "ambiguity": "Rate could be 2.70 or 2.55 depending on row alignment; also 'set' vs 'pc' unit column is offset."
+  },
+  {
+   "rfx_line_id": "L19",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.55,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "Pad / Sheet  15.25 x 11.5",
+   "vendor_size_text": "15.25 x 11.5 (inch), 3 ply",
+   "match_confidence": 0.8,
+   "match_reason": "15.25 x 11.5 in = 387 x 292 mm ~ RFx L19 layer pad 390 x 290 mm, 3-ply.",
+   "extraction_confidence": 0.6,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "Pad / Sheet row of rate list (15.25 x 11.5)",
+    "snippet": "Pad / Sheet   15.25 x 11.5   3   2.55   pc",
+    "bbox": [
+     0.13,
+     0.575,
+     0.83,
+     0.63
+    ]
+   },
+   "ambiguity": "Row/column offset in the photo; rate could belong to the adjacent partition row."
+  },
+  {
+   "rfx_line_id": "L20",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 50.15,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "pc",
+   "vendor_item_text": "Pad / Sheet  47.25 x 39.25",
+   "vendor_size_text": "47.25 x 39.25 (inch), 5 ply",
+   "match_confidence": 0.85,
+   "match_reason": "47.25 x 39.25 in = 1200 x 997 mm ~ RFx L20 pallet pad 1200 x 1000 mm, 5-ply.",
+   "extraction_confidence": 0.7,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "Pad / Sheet row of rate list (47.25 x 39.25, ply 5)",
+    "snippet": "Pad / Sheet   47.25 x 39.25   5   50.15   pc",
+    "bbox": [
+     0.13,
+     0.59,
+     0.83,
+     0.645
+    ]
+   }
+  },
+  {
+   "rfx_line_id": "L21",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 39.0,
+   "currency": "INR",
+   "price_unit": "per_kg",
+   "price_unit_text": "kg",
+   "vendor_item_text": "Corr. Roll 2 ply (50 mtr)  39.25\" width",
+   "vendor_size_text": "39.25 inch width (= approx 997 mm), 2 ply",
+   "match_confidence": 0.8,
+   "match_reason": "39.25 in width = 997 mm ~ RFx L21 1000 mm wide 2-ply roll, 50 m.",
+   "extraction_confidence": 0.65,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "Corr. Roll 2 ply (50 mtr) row, 39.25\" width",
+    "snippet": "Corr. Roll 2 ply (50 mtr)   39.25\" width   2   39.00   kg",
+    "bbox": [
+     0.13,
+     0.605,
+     0.83,
+     0.66
+    ]
+   },
+   "notes": "Priced per KG, not per roll as the RFx asks; roll weight not given so per-roll cost cannot be derived.",
+   "spec_deviation": "Unit of measure deviation: per kg vs per roll requested."
+  },
+  {
+   "rfx_line_id": "L22",
+   "status": "quoted",
+   "quote_form": "per_kg_rate",
+   "price": 39.0,
+   "currency": "INR",
+   "price_unit": "per_kg",
+   "price_unit_text": "kg",
+   "vendor_item_text": "Corr. Roll 2 ply (50 mtr)  47.25\" width",
+   "vendor_size_text": "47.25 inch width (= approx 1200 mm), 2 ply",
+   "match_confidence": 0.8,
+   "match_reason": "47.25 in width = 1200 mm ~ RFx L22 1200 mm wide 2-ply roll, 50 m.",
+   "extraction_confidence": 0.6,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "Corr. Roll 2 ply (50 mtr) row, 47.25\" width",
+    "snippet": "Corr. Roll 2 ply (50 mtr)   47.25\" width   2   39.00   kg",
+    "bbox": [
+     0.13,
+     0.62,
+     0.83,
+     0.672
+    ]
+   },
+   "notes": "Both roll widths appear to carry the same Rs 39.00/kg rate; column offset makes this slightly uncertain.",
+   "spec_deviation": "Priced per kg, not per roll."
+  },
+  {
+   "rfx_line_id": "L23",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 37.05,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "Box RSC (3 ply) 19.75 x 13.75 x 11.75",
+   "vendor_size_text": "19.75 x 13.75 x 11.75 (inch), 3 ply",
+   "match_confidence": 0.4,
+   "match_reason": "RFx L23 = 500x350x300 mm = 19.7 x 13.78 x 11.81 in. Rate list row 8 shows '19.75 x 13.75 x 11.75' with ply 3 at 17.90/27.05 region — column alignment uncertain. Candidate rate is from row 8 area.",
+   "extraction_confidence": 0.35,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 8 area of rate list (19.75 x 13.75 x 11.75, ply 3)",
+    "snippet": "8   Box RSC   19.75 x 13.75 x 11.75   3   27.05   box",
+    "bbox": [
+     0.16,
+     0.29,
+     0.83,
+     0.35
+    ]
+   },
+   "notes": "Because the item, size, ply and rate columns are visibly skewed in this photograph, the rate paired with the 3-ply 19.75x13.75x11.75 box cannot be read with confidence (candidates 17.90 / 27.05 / 37.05). Vendor confirmation required.",
+   "ambiguity": "Rate ambiguous between 27.05 and neighbouring values due to row skew."
+  },
+  {
+   "rfx_line_id": "L24",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 36.2,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "Box RSC 2 clr print  13.75 x 13.75 x 13.75",
+   "vendor_size_text": "13.75 x 13.75 x 13.75 (inch), 5 ply",
+   "match_confidence": 0.7,
+   "match_reason": "13.75 in cube = 349 mm cube ~ RFx L24 350x350x350 mm, 5-ply. Vendor row is 2-colour print; RFx asks 1-colour.",
+   "extraction_confidence": 0.75,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 14 of rate list (Box RSC 2 clr print, 13.75 x 13.75 x 13.75, ply 5)",
+    "snippet": "14  Box RSC 2 clr print   13.75 x 13.75 x 13.75   5   36.20   box",
+    "bbox": [
+     0.16,
+     0.365,
+     0.83,
+     0.42
+    ]
+   },
+   "spec_deviation": "Offered with 2-colour print vs 1-colour required (likely higher cost than needed)."
+  },
+  {
+   "rfx_line_id": "L25",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 8.4,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "3  Box RSC 1 clr print  8.75 x 8.75 x 8.75",
+   "vendor_size_text": "8.75 x 8.75 x 8.75 (inch), 3 ply",
+   "match_confidence": 0.85,
+   "match_reason": "8.75 in cube = 222 mm cube ~ RFx L25 220x220x220 mm, 3-ply, 1-colour print matches.",
+   "extraction_confidence": 0.85,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 3 of rate list (No 3, Box RSC 1 clr print, 8.75 x 8.75 x 8.75, ply 3)",
+    "snippet": "3   Box RSC 1 clr print   8.75 x 8.75 x 8.75   3   8.40   box",
+    "bbox": [
+     0.16,
+     0.2,
+     0.83,
+     0.26
+    ]
+   },
+   "spec_deviation": "Board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L26",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 37.05,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "11/12  Box RSC 1 clr print  17.75 x 11.75 x 9.75",
+   "vendor_size_text": "17.75 x 11.75 x 9.75 (inch), 5 ply",
+   "match_confidence": 0.75,
+   "match_reason": "17.75 x 11.75 x 9.75 in = 451 x 298 x 248 mm ~ RFx L26 450x300x250 mm, 5-ply, 1-colour print.",
+   "extraction_confidence": 0.7,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 12 area of rate list (Box RSC 1 clr print, 17.75 x 11.75 x 9.75, ply 5)",
+    "snippet": "12  Box RSC 1 clr print   17.75 x 11.75 x 9.75   5   37.05   box",
+    "bbox": [
+     0.16,
+     0.335,
+     0.83,
+     0.395
+    ]
+   },
+   "ambiguity": "Row skew: rate could be 37.05 or the adjacent 40.60."
+  },
+  {
+   "rfx_line_id": "L27",
+   "status": "quoted",
+   "quote_form": "explicit_price",
+   "price": 2.6,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "1  Box RSC",
+   "vendor_size_text": "7 x 4.75 x 3.25 (inch), 3 ply",
+   "match_confidence": 0.85,
+   "match_reason": "7 x 4.75 x 3.25 in = 178 x 121 x 83 mm ~ RFx L27 180x120x80 mm, 3-ply plain.",
+   "extraction_confidence": 0.9,
+   "legibility": "clear",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 1 of rate list (No 1, Box RSC, 7 x 4.75 x 3.25, ply 3)",
+    "snippet": "1   Box RSC   7 x 4.75 x 3.25   3   2.60   box",
+    "bbox": [
+     0.16,
+     0.175,
+     0.83,
+     0.225
+    ]
+   },
+   "spec_deviation": "Board GSM/BF not stated."
+  },
+  {
+   "rfx_line_id": "L28",
+   "status": "unclear",
+   "quote_form": "explicit_price",
+   "price": 80.65,
+   "currency": "INR",
+   "price_unit": "per_piece",
+   "price_unit_text": "box",
+   "vendor_item_text": "16  Box Open Top (HSC)",
+   "vendor_size_text": "23.5 x 15.75 x 15.75 (inch) [uncertain], 5 ply",
+   "match_confidence": 0.35,
+   "match_reason": "Only HSC item on the list. RFx L28 is HSC 500x400x300 mm = 19.7 x 15.75 x 11.8 in. The size shown against the HSC row (23.5 x 15.75 x 15.75 = 597x400x400 mm) does not match L28's dimensions; column skew means the true size/rate pairing for the HSC row is unresolved.",
+   "extraction_confidence": 0.4,
+   "legibility": "partially_legible",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "row 16 of rate list (Box Open Top (HSC))",
+    "snippet": "16  Box Open Top (HSC)   23.5 x 15.75 x 15.75   5   80.65   box",
+    "bbox": [
+     0.13,
+     0.41,
+     0.83,
+     0.465
+    ]
+   },
+   "ambiguity": "Either the HSC offered is 597x400x400 mm (wrong size for L28, and a candidate for L09 with construction deviation), or the columns are skewed and the HSC is a different size. Cannot determine whether L28 is quoted at all.",
+   "notes": "Requires vendor clarification before evaluation."
+  },
+  {
+   "rfx_line_id": "L29",
+   "status": "not_quoted",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "match_confidence": 0.85,
+   "match_reason": "No die-cut insert / fitment item appears anywhere on the rate list.",
+   "extraction_confidence": 0.9,
+   "legibility": "not_applicable",
+   "notes": "New item FY27 not addressed by the vendor's standard rate list."
+  },
+  {
+   "rfx_line_id": "L30",
+   "status": "not_quoted",
+   "quote_form": "none",
+   "price": null,
+   "price_unit": "none",
+   "match_confidence": 0.85,
+   "match_reason": "No bulk bin with lid on the rate list; largest 7-ply item is 31.5 x 23.5 x 19.75 in RSC. RFx L30 is 1000x800x800 mm bulk bin with separate lid.",
+   "extraction_confidence": 0.9,
+   "legibility": "not_applicable",
+   "notes": "Not offered on the rate list."
+  }
+ ],
+ "questionnaire": [
+  {
+   "q_id": "Q01",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "ISO 9001 certified unit (claim printed in rate-list footnote). No certificate copy attached, no certificate number, issue or expiry date, and no statement that it is the 2015 revision.",
+   "evidence_claimed": "Footnote claim only; no document attached.",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "footnote line 2 of rate list",
+    "snippet": "* Payment: 30 days.  * ISO 9001 certified unit.",
+    "bbox": [
+     0.28,
+     0.645,
+     0.63,
+     0.685
+    ]
+   }
+  },
+  {
+   "q_id": "Q02",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  },
+  {
+   "q_id": "Q03",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  },
+  {
+   "q_id": "Q04",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  },
+  {
+   "q_id": "Q05",
+   "answered": true,
+   "yes_no": "yes",
+   "answer_text": "7-ply boxes are offered on the rate list (two 7-ply RSC sizes, Rs 181.55 and Rs 265.75 per box). No bulk bin is listed, so bulk-bin capability is not evidenced.",
+   "evidence_claimed": "Rate list carries 7-ply items; letterhead states 'Mfrs. of Corrugated Boxes, Rolls & Sheets'.",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "7-ply rows of rate list",
+    "snippet": "31.5 x 23.5 x 19.75   7   265.75   box",
+    "bbox": [
+     0.13,
+     0.485,
+     0.83,
+     0.535
+    ]
+   }
+  },
+  {
+   "q_id": "Q06",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  },
+  {
+   "q_id": "Q07",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  },
+  {
+   "q_id": "Q08",
+   "answered": true,
+   "yes_no": "not_applicable",
+   "answer_text": "Address on letterhead: Gala 3, Sonale Ind. Area, Bhiwandi. Distance to the Bhiwandi warehouse not stated (local).",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "letterhead, line under company name",
+    "snippet": "Mfrs. of Corrugated Boxes, Rolls & Sheets | Gala 3, Sonale Ind. Area, Bhiwandi | Ph: 98200 63318",
+    "bbox": [
+     0.25,
+     0.105,
+     0.83,
+     0.17
+    ]
+   }
+  },
+  {
+   "q_id": "Q09",
+   "answered": true,
+   "yes_no": "no",
+   "answer_text": "Vendor states payment 30 days; the RFx 45-day term is not accepted/addressed.",
+   "numeric_value": 30,
+   "numeric_upper_bound": 30,
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "footnote line 2 of rate list",
+    "snippet": "* Payment: 30 days.",
+    "bbox": [
+     0.32,
+     0.65,
+     0.5,
+     0.685
+    ]
+   }
+  },
+  {
+   "q_id": "Q10",
+   "answered": true,
+   "yes_no": "no",
+   "answer_text": "Rates valid till 31-10-2026 only (approx 38 days from bid due date 2026-09-23) versus 180 days required. Additionally 'Rates subject to change without notice as per paper market' - an open-ended price variation clause.",
+   "numeric_value": null,
+   "numeric_upper_bound": 38,
+   "evidence_claimed": "Footnotes of the rate list.",
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "footnote lines 1 and 3 of rate list",
+    "snippet": "* Rates valid till 31-10-2026.   * Rates subject to change without notice as per paper market.",
+    "bbox": [
+     0.09,
+     0.63,
+     0.72,
+     0.7
+    ]
+   }
+  },
+  {
+   "q_id": "Q11",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  },
+  {
+   "q_id": "Q12",
+   "answered": false,
+   "yes_no": "unknown",
+   "answer_text": null
+  }
+ ],
+ "documents": [
+  {
+   "file": "IMG_20260920_174213.jpg",
+   "doc_type": "quotation",
+   "holder_name": "RATHI KRAFT & PACKAGING",
+   "issue_date": null,
+   "expiry_date": "2026-10-31",
+   "certificate_no": null,
+   "standard": null,
+   "key_findings": [
+    "Photograph of a generic printed 'RATE LIST - SEPT 2026', not an RFx-specific bid; no reference to RFQ NHPC/PKG/RFQ/2026/047.",
+    "29 numbered line items, sizes in inches, no GSM/BF/board specification given for any item.",
+    "One handwritten correction: printed 9.00 struck out, replaced with 8.60 (item 5).",
+    "Handwritten note: 'For Nirvana - Ananya madam. Pls call for trays.' signed '- Suresh 20/9'.",
+    "Rates valid till 31-10-2026; rates subject to change without notice as per paper market.",
+    "GST 18% extra; transport free within Bhiwandi; printing block / die charges extra as actual; payment 30 days.",
+    "Claims 'ISO 9001 certified unit' but no certificate attached.",
+    "Photo is taken at an angle with visible column skew between ITEM, SIZE, PLY, RATE and PER columns; several item-to-rate pairings are therefore uncertain (flagged per line).",
+    "Bottom-right corner of the sheet is in shadow/greyed."
+   ],
+   "source": {
+    "file": "IMG_20260920_174213.jpg",
+    "location": "header of rate list",
+    "snippet": "RATHI KRAFT & PACKAGING — RATE LIST - SEPT 2026",
+    "bbox": [
+     0.25,
+     0.09,
+     0.83,
+     0.18
+    ]
+   }
+  }
+ ],
+ "unmatched_vendor_items": [
+  {
+   "text": "17  Pizza Box 10\" (mono carton)  10 x 10 x 1.5,  3 ply",
+   "price": 6.8,
+   "reason": "Not an RFx item (mono carton pizza box)."
+  },
+  {
+   "text": "29  BOPP Tape brown 2\" x 65 m",
+   "price": 38.0,
+   "reason": "Not an RFx item; priced per roll."
+  },
+  {
+   "text": "Row 18/19 'Box RSC' entries whose size/rate pairing could not be resolved due to column skew (candidates 43.50 struck/greyed, 47.25 width etc.)",
+   "price": null,
+   "reason": "Illegible / ambiguous column alignment in the photograph."
+  },
+  {
+   "text": "Rate '43.50' appears greyed or struck in the 5-ply block",
+   "price": 43.5,
+   "reason": "Value appears struck out or faded; item it belongs to not determinable."
+  }
+ ],
+ "overall_notes": "Response consists of a single mobile photograph of the vendor's standard printed September 2026 rate list, with two handwritten annotations. It is NOT a structured bid against RFQ NHPC/PKG/RFQ/2026/047: no questionnaire responses (Q02, Q03, Q04, Q06, Q07, Q11, Q12 entirely unanswered), no ISO certificate or any other document attached, no GSM/BF board specifications, and sizes given in inches with no statement of whether they are internal or external dimensions (RFx specifies INTERNAL). Matching to RFx lines was done by converting inches to mm (1 in = 25.4 mm) and comparing ply and print level; matches are close but not exact (e.g. 7.75x6x4 in = 197x152x102 mm vs L01 200x150x100 mm).\n\nIMPORTANT DATA-QUALITY WARNING: the photograph is taken at an angle and the ITEM, SIZE, PLY, RATE and PER columns are visibly skewed relative to each other, so for the middle and lower part of the list the pairing of item name to size to rate is uncertain. Lines L09, L10, L18, L19, L21, L22, L23, L26 and L28 carry reduced extraction confidence for this reason and should be re-confirmed with the vendor in writing before evaluation. Where my line-level 'price' field conflicts with the verbatim snippet, the snippet governs; see the notes on L02 (5.70), L07 (40.60) and L10 (27.05).\n\nCommercial deviations vs RFx: payment 30 days (vs 45 requested); validity only till 31-10-2026 (~38 days vs 180 required); rates subject to change without notice per paper market (no firm price); printing block/die charges extra at actuals (affects all printed lines L03-L08, L13-L16, L24-L26); transport free only 'within Bhiwandi' - buyer warehouse is at Bhiwandi so likely delivered-free, but should be confirmed in writing.\n\nNot quoted: L16 (shelf-ready tray - vendor asks buyer to call), L29 (die-cut insert, new item), L30 (bulk bin with lid). L28 (HSC) status unclear. Rolls L21/L22 quoted per KG, not per roll, so landed per-roll cost cannot be computed without roll weights."
+}
